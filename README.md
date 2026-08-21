@@ -22,7 +22,7 @@ I’ve grouped these projects by career experience in reverse chronological orde
 
 #### [Cloud AI: revenue-intelligence engine](./projects/cloud-ai-revenue-intelligence-engine.md)
 
-I built a unified Revenue Operations signal layer across product, CRM, documentation, engineering, pricing, and compliance. Separate research and action engines delivered approved answers, bounded calculations, source-owner feedback, and in-product intervention at the moment customer intent was at risk.
+I built a unified Revenue Operations evidence layer across product, CRM, documentation, engineering, pricing, and compliance. Separate research and action engines delivered permission-aware answers, bounded calculations, source-owner feedback, and in-product intervention while distinguishing accelerated ARR from net-new revenue.
 
 ### Rakuten Group, Inc.
 
@@ -30,7 +30,7 @@ I built a unified Revenue Operations signal layer across product, CRM, documenta
 
 #### [Influencer operations: smart-contract automation](./projects/influencer-operations-smart-contract-automation.md)
 
-I redesigned influencer and partner operations around executable workflow states rather than static documents. Identity proof, governed templates, verified delivery, automated payment, exception handling, and performance feedback created a scalable contract-to-cash operating system.
+I redesigned influencer and partner operations around executable workflow states rather than static documents. Identity proof, governed templates, verified delivery, idempotent payment, exception handling, and performance feedback created a scalable contract-to-cash system; the project distinguishes functional layers from the alternative vendor stacks recorded in the source notes.
 
 ### Microsoft Corporation
 
@@ -38,7 +38,7 @@ I redesigned influencer and partner operations around executable workflow states
 
 #### [Revenue data integration: policy-as-code governance](./projects/revenue-data-integration-policy-as-code-governance.md)
 
-I converted a four-day, single-expert integration queue into a governed self-service data platform. A 20-point policy engine encoded regional, identity, security, and exception rules while standard connector and infrastructure patterns handled routine requests and routed ambiguity to expert review.
+I converted a four-day, single-expert integration queue into a governed self-service data platform. A 20-point policy engine encoded regional, identity, security, and exception rules while standard connector and infrastructure patterns handled routine requests and routed ambiguity to expert review. The reported $850K result is correctly treated as commercial value, not “market share.”
 
 ### The D. E. Shaw Group
 
@@ -46,7 +46,7 @@ I converted a four-day, single-expert integration queue into a governed self-ser
 
 #### [Institutional ABM: investor transparency](./projects/institutional-abm-investor-transparency.md)
 
-I rebuilt institutional demand generation around a first-party relationship graph, explainable investor experience, and locally compliant digital access. Account-level intent, offline revenue feedback, guided risk transparency, and controlled exposure tests replaced lead volume with sales velocity.
+I rebuilt institutional demand generation around a first-party relationship graph, explainable investor experience, and a regionally isolated China channel. Account-level intent, offline revenue feedback, guided risk transparency, and controlled exposure tests replaced lead volume with sales velocity without mislabeling the controlled data interface as physically air-gapped.
 
 ### McKinsey & Company
 
@@ -54,4 +54,4 @@ I rebuilt institutional demand generation around a first-party relationship grap
 
 #### [Mobile affiliate: cross-app attribution](./projects/mobile-affiliate-cross-app-attribution.md)
 
-I reframed a mobile affiliate measurement gap as a product-routing, data-integrity, and commercial-governance problem. Deep linking, server-to-server events, standardized parameters, parallel reconciliation, merchant enablement, and a geo holdout repaired both customer journeys and revenue reporting.
+I reframed a client mobile-affiliate defect as a product-routing, data-integrity, and commercial-governance problem. Deep linking, server-to-server events, standardized parameters, parallel reconciliation, merchant enablement, and a geo holdout repaired the journey while keeping attributed, recovered, and incremental revenue separate.
