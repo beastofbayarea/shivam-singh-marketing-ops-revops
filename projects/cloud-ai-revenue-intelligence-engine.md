@@ -1,53 +1,99 @@
-# Building a Governed Revenue Intelligence Layer for Cloud Sales
+# Closing the Gap Between a Cloud Product Change and a Customer Decision
 
-I led this work during my [AWS experience beginning in July 2024](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf).
+I led a revenue-intelligence program for a cloud AI business. I had identified that customers and sellers were losing momentum because product, pricing, security, and compliance answers lived with different owners and arrived after the decision moment. I worked with sales, solution architects, product and engineering teams, security and compliance owners, documentation teams, pricing specialists, support, data teams, and new product users.
 
-Sales and technical teams were searching seven fragmented systems for product, pricing, security, and compliance answers. Documentation could lag product changes by 72 hours. A seller spent about 24 minutes researching a question, security RFPs took up to two weeks, and new product users often abandoned within seven minutes—before reactive support could reach them.
+The work belongs to my AWS role beginning in July 2024. I did not start with a chatbot. I started with two clocks that the revenue system could not reconcile.
 
-I built one revenue signal layer, but I deliberately did not make it one unconstrained AI assistant.
+## Two clocks, one failure
 
-## Research and action had different risk
+**The publishing clock:** a product change could take as long as 72 hours to appear in documentation. A seller then searched as many as seven systems and spent about 24 minutes assembling an answer. A security questionnaire could remain open for two weeks.
 
-I separated the experience into two engines. The research shield retrieved permission-aware information with citations and confidence signals. The action builder assembled proposals and technical models only inside bounded templates, approved calculations, and role permissions.
+**The intent clock:** a new user showed signs of configuration trouble within the first seven minutes. By the time a support case or sales response arrived, the user could already have left.
 
-That distinction reduced the chance that a useful answer could silently become an unauthorized commitment. NIST's AI Risk Management Framework shaped the lifecycle: map the user and business context, measure quality and risk, assign governance, and manage release behavior. FTC advertising guidance supplied the claim standard for customer-facing language: evidence had to support what the system proposed.
+The product requirement was therefore not “answer questions faster.” It was to deliver an authorized answer or useful intervention before intent expired, while returning every defect to the system that created it.
 
-## I treated source health as part of the product
+## The revenue layer was an evidence graph
 
-The platform joined product events, CRM records, documentation, issue tracking, engineering releases, pricing, and compliance evidence under shared definitions. Every answer linked back to its source and owner.
+I joined six classes of signal under shared account, product, version, source-owner, permission, and effective-date definitions:
 
-When a user flagged a weak answer, the issue went to the source owner rather than becoming an isolated prompt patch. The repair loop tracked stale information, conflicting definitions, missing approval, and unsupported claims. That improved internal data health 60% in one quarter and made the next answer better for everyone.
+- product usage and friction events;
+- CRM account, opportunity, territory, stage, and close history;
+- product documentation and release metadata;
+- engineering issues and known defects;
+- pricing APIs and approved commercial rules;
+- security and compliance evidence.
 
-PII controls, permission checks, confidence thresholds, trace evidence, and escalation paths were release requirements—not additions after adoption.
+The graph preserved provenance. A generated sentence was not the source of truth; it was a view over a versioned source with an owner. That distinction let us measure stale documents, contradictory definitions, missing approvals, and weak retrieval separately from model behavior.
 
-## Product behavior became a revenue signal
+Amazon Bedrock's retrieval APIs illustrate the technical pattern: `RetrieveAndGenerate` returns citations tied to retrieved source chunks. AWS's access-control documentation also draws an important boundary—document-level ACL filtering is not authentication, so the application must authenticate the user and pass verified identity context. I built the release model around that same distinction rather than treating retrieval metadata as a security perimeter.
 
-For new users, rapid refreshes and repeated clicks indicated that the first journey was failing. I used those signals to trigger contextual help before abandonment, while keeping the intervention connected to observed behavior rather than a broad interruptive message.
+## I separated finding an answer from taking an action
 
-For deals, I tracked when a governed answer, proposal, RFP response, or technical model influenced the next commercial step. I attributed revenue only where logged intervention or separately tagged pipeline evidence existed.
+One unconstrained assistant would have mixed low-risk research with high-consequence commitments. I created two products sharing the evidence layer.
 
-## A holdout tested the commercial claim
+### Research shield
 
-I kept a 90-day comparison group so broader sales changes would not be mistaken for product impact. The study compared research time, RFP turnaround, deal cycle, win rate, intervention, and attributable pipeline across enabled and holdout teams.
+The research path retrieved only sources the authenticated user could access, returned click-through citations and effective dates, and exposed confidence and conflict. A security answer below the approval threshold did not get smoothed into persuasive prose; it went to a named reviewer.
 
-The results were:
+The retained release threshold was 90% confidence for an unqualified answer, with a warning below it. Confidence was a routing input, not proof of correctness. The recorded security-answer error rate was 0.08%, equivalent to eight errors per 10,000 reviewed answers if the denominator was answer-level reviews. Because the notes do not preserve the error taxonomy or sample size, I would recover those before using the rate in a model-risk review.
 
-- research time fell from 24 minutes to under 30 seconds;
-- security RFP turnaround fell from two weeks to under 48 hours;
-- approximately 1,200 hours of monthly research work were recaptured;
-- enabled teams closed 28% faster and won 19% more often;
-- the program supported $10 million in accelerated annual recurring revenue; and
-- annualized productivity value reached roughly $1.4 million.
+### Action builder
 
-## My RevOps principle
+The action path could query approved pricing, populate a proposal shell, or run a technical calculation only through bounded tools. Deterministic formulas handled price and capacity math; templates constrained customer-facing claims; role permissions governed which action could be invoked; human approval remained required where the underlying business process required it.
 
-Revenue intelligence works when it improves the operating system behind the answer. I connect customer and seller intent to governed sources, make permissions visible, and measure the downstream decision. A fast response is helpful; a fast, supportable response that also repairs its source system compounds in value.
+The separation prevented a good research response from becoming an unauthorized price, architecture commitment, or compliance representation.
 
-## External foundations
+## A bad answer created work for the source owner
 
-These sources supplied the primary AI-governance and marketing-claim methodology. My resume establishes employment chronology only.
+Users could flag an answer as stale, unsupported, contradictory, or incomplete. The flag opened an issue against the document, API, or control owner with the question, retrieved evidence, model output, and reason.
 
-| Source | How I applied it |
-|---|---|
-| [NIST — AI Risk Management Framework 1.0 (2023)](https://doi.org/10.6028/NIST.AI.100-1) | I used its govern-map-measure-manage cycle for data, evaluation, ownership, and production release. |
-| [U.S. Federal Trade Commission — Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) | I used its truthful-advertising and substantiation standard for generated customer-facing claims. |
+The internal data-health index improved 60% in one quarter. That is a relative change in a composite internal measure; the retained notes do not preserve its component weights. The defensible claim is that the defect loop materially reduced known source problems, not that enterprise data became “60% accurate.”
+
+This loop was the compounding asset. Prompt patches help one question. Correcting an effective date, ownership field, or contradictory source improves every later retrieval.
+
+## The minute-seven intervention
+
+For new users, repeated refreshes or nine repeated clicks on the same setup path signaled likely struggle. The intervention offered context-specific setup guidance or code rather than a generic chat invitation.
+
+I required three controls:
+
+1. the behavior had to be observable and tied to the current task;
+2. the intervention had to be dismissible and frequency-capped;
+3. product and support outcomes had to be measured against a non-intervened cohort.
+
+This made product behavior a revenue signal without assuming every unusual click was purchase intent.
+
+## Commercial measurement: what the holdout can and cannot prove
+
+I used a 90-day comparison group across similar territories. The enabled cohort reportedly closed 28% faster and had a 19% higher win rate.
+
+Those phrases require care. The retained record does not say whether “19% higher” means relative improvement or percentage points, nor does it preserve the original cycle length. I therefore do not convert either result into an invented baseline. Territory matching also leaves possible selection and spillover bias; this was stronger than before/after attribution but weaker than randomized assignment.
+
+The $10 million result was **accelerated annual recurring revenue**: ARR attached to logged AI interventions or separately tagged behavioral opportunities whose close timing moved forward. It was not necessarily $10 million of net-new ARR. Pull-forward changes timing and potentially win probability; it should not be booked twice as new demand.
+
+## Reconstructing the productivity economics
+
+| Work | Baseline | Intended service level | Result | Measurement and arithmetic |
+|---|---:|---:|---:|---|
+| seller research | 24 minutes/question | answer during the customer interaction | <30 seconds | workflow timestamps; 23.5 minutes saved per question |
+| security RFP | as long as 14 days | response inside procurement cadence | <48 hours | open-to-approved-response timestamps; complexity mix not retained |
+| monthly research capacity | ~1,200 hours consumed | return routine search time | ~1,200 hours recaptured | at 23.5 minutes saved, implies about 3,064 questions/month |
+| annual productivity value | manual research cost | monetize loaded time | ~$1.4M annualized | implies ~$97 per recaptured hour across 14,400 hours/year |
+| data health | internal composite baseline | fewer known source defects | +60% in one quarter | relative index change; component weights not retained |
+| commercial timing | matched comparison | faster governed response | 28% faster closes; 19% higher win rate | 90-day territory comparison; exact baselines absent |
+
+The implied query volume and hourly value reconcile the time and dollar claims; they are arithmetic checks, not additional measured outcomes.
+
+## My operating authority
+
+I owned the problem definition, common revenue ontology, separation of research and action risk, source-repair loop, behavioral intervention policy, cross-functional adoption, and measurement design. Source owners approved their facts; security and compliance retained policy authority; product teams instrumented the journey; sales leaders owned opportunity decisions; model and platform teams implemented the technical components.
+
+The project mattered because it made revenue speed a property of the operating system. Sellers got a faster answer, users got help inside the intent window, and every failure had a path back to evidence and ownership.
+
+### Technical and governance references
+
+- [Amazon Bedrock — Knowledge Base retrieval](https://docs.aws.amazon.com/bedrock/latest/userguide/kb-how-retrieval.html) documents retrieval with source-chunk citations.
+- [Amazon Bedrock — Document-level access controls](https://docs.aws.amazon.com/bedrock/latest/userguide/kb-managed-ds-custom-acl.html) explicitly distinguishes ACL-aware filtering from authentication and authorization.
+- [AWS Security Blog — Authorizing access in RAG](https://aws.amazon.com/blogs/security/authorizing-access-to-data-with-rag-implementations/) explains why vector retrieval can bypass original-source permission checks if authorization is not rebuilt.
+- [NIST AI Risk Management Framework 1.0](https://doi.org/10.6028/NIST.AI.100-1) informed governance, evaluation, release, and monitoring.
+
