@@ -1,56 +1,28 @@
-# Quant Strategies — Institutional ABM & Investor Transparency
+# Quant Strategies - Institutional ABM and Investor Transparency
 
-> **Portfolio lens:** Institutional ABM, first-party relationship data, Salesforce activation, sales velocity, compliance, and long-cycle attribution.
+> **Document type:** Externally grounded interview case reconstruction, not a claim of an independently verified completed engagement.
+>
+> **Timeline alignment:** The [public Marketing Operations and RevOps resume](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf) is used only to place this case within the D. E. Shaw role dated 2016-2020.
 
-## Executive snapshot
+## Evidence-grounded premise
 
-Rebuilt institutional demand generation around a first-party relationship graph, explainable investor experience, and locally compliant digital access. Account-level intent, offline revenue feedback, guided risk transparency, and controlled exposure tests replaced lead volume with sales velocity.
+FINRA Rule 2210 requires communications to be fair, balanced, non-misleading, audience-appropriate, and supervised. COSO's framework emphasizes reliable information, control ownership, and monitoring. These sources support institutional ABM based on decision-relevant evidence and governed communication rather than promotional volume.
 
-## Resume-ready impact
+## Case approach
 
-- Built a first-party relationship and intent layer joining web, event, content, regional-channel, CRM, board, fund, and opportunity data.
-- Activated account insights in Salesforce and fed closed-deal value back to acquisition platforms, reducing cost per qualified lead 51%.
-- Influenced $4.2B in pipeline, delivered 253% ROAS, increased sales velocity 64%, and shortened the deal cycle by roughly three months.
+- Map each account's mandate, governance, evidence needs, stakeholders, and decision calendar.
+- Build approved content from substantiated claims, balanced risk, material qualifications, and current data.
+- Track engagement at the buying-group level while protecting institutional communication controls.
+- Route questions, exceptions, and follow-up through accountable commercial, investment, and compliance owners.
 
-## Interview story
+## Evidence-based success measures
 
-### Situation
+Use substantiation coverage, communication exceptions, buying-group engagement, qualified progression, response time, and evidence freshness. These are proposed measures, not historical results.
 
-Institutional buyers could not explain opaque quantitative risk to boards, relationship records were fragmented, local channels in China performed poorly, and last-touch measurement undervalued long-cycle education.
+## External source map
 
-### Task
-
-Create a governed ABM and revenue-data system that improved fiduciary confidence, local access, relationship timing, and causal measurement.
-
-### Actions
-
-- Resolved people, funds, boards, opportunities, and engagement into a golden account relationship record.
-- Trained acquisition on meetings, opportunities, and closed value rather than content downloads.
-- Built a guided 'glass-box' experience showing stress behavior without exposing proprietary code.
-- Created a local, air-gapped mini-program carrying educational content and qualified signals while keeping sensitive data outside the market.
-
-### Results
-
-- Influenced pipeline reached $4.2B, and ROAS reached 253%.
-- Sales velocity increased 64%.
-- Cost per qualified lead fell from $850 to $420.
-- Local lead volume increased approximately twelvefold, and holdout accounts took about three months longer to close.
-
-## Decisions and trade-offs
-
-- Measure sales velocity, not raw leads.
-- Expose enough risk logic for fiduciary trust without revealing source code.
-- Combine controlled exposure tests with CRM outcome evidence for long sales cycles.
-
-## Leadership signal
-
-Unified Marketing, Sales, Data, Compliance, Client Relations, and regional teams around one relationship record and one commercial outcome.
-
-## Skills and keywords
-
-ABM · Revenue Operations · Salesforce · customer data · first-party data · account intent · sales velocity · offline conversion · institutional marketing · compliance
-
-## Source
-
-[Original Notion project page](https://app.notion.com/p/2f7f9e255f2180e8bf4ceaef5422d15c)
-
+| Source | Contribution |
+|---|---|
+| [FINRA Rule 2210](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210) | Primary institutional-communications and content standard. |
+| [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) | Primary reliable-information and monitoring framework. |
+| [Public resume](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf) | Work dates only. |

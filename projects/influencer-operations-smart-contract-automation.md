@@ -1,60 +1,28 @@
-# Influencer Operations — Smart-Contract Workflow Automation
+# Influencer Operations - Smart-Contract Workflow Automation
 
-> **Portfolio lens:** Marketing workflow automation, partner lifecycle operations, identity, contract-to-cash, attribution, and scalable governance.
+> **Document type:** Externally grounded interview case reconstruction, not a claim of an independently verified completed engagement.
+>
+> **Timeline alignment:** The [public Marketing Operations and RevOps resume](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf) is used only to place this case within the Rakuten role dated 2023.
 
-## Executive snapshot
+## Evidence-grounded premise
 
-Redesigned influencer and partner operations around executable workflow states rather than static documents. Identity proof, governed templates, verified delivery, automated payment, exception handling, and performance feedback created a scalable contract-to-cash operating system.
+The FTC's 2023 Endorsement Guides address material connections, clear disclosure, advertiser and intermediary responsibility, and platform limitations. NISTIR 8202 explains smart contracts and blockchain limitations, including the continued need for trust and off-chain governance. These sources support automation only after disclosure, evidence, approval, exception, and dispute rules are defined.
 
-## Resume-ready impact
+## Case approach
 
-- Reduced partner contract-to-cash from 14 days to under 48 hours by automating identity, terms, delivery evidence, approval, and payment transitions.
-- Expanded partner-volume capacity tenfold without additional Operations headcount and removed roughly $500 of administrative cost per contract.
-- Delivered $2.2M in operating savings and an estimated $5M in annualized revenue uplift from faster campaign launches.
+- Encode approved deliverables, disclosure obligations, evidence, milestones, and payment conditions.
+- Keep identity, content approval, disputes, corrections, and exceptional payments under accountable human governance.
+- Record versioned approvals and the evidence that triggered each automated state change.
+- Test contract logic and failure recovery before exposing creators or payments.
 
-## Interview story
+## Evidence-based success measures
 
-### Situation
+Use disclosure compliance, approval exceptions, disputed payments, correction time, evidence completeness, contract failures, and creator support demand. These are proposed measures, not historical results.
 
-Manual identity checks, legal edits, performance validation, SAP entry, and payment consumed 40% of marketing capacity. Fake engagement exposure could reach 20%, and smaller partners struggled with enterprise administration.
+## External source map
 
-### Task
-
-Build a governed partner workflow that increased speed and access without allowing incorrect automated payments or unverified performance.
-
-### Actions
-
-- Stopped operating custom blockchain plumbing and partnered for the protocol layer.
-- Defined an evidence-based state machine from invited to verified, contracted, delivered, approved, paid, and learned.
-- Moved Legal upstream into versioned template and rule design while preserving exception review and human override.
-- Connected verified audience and delivery data to future channel and spend allocation.
-
-### Results
-
-- Contract-to-cash fell below 48 hours, an approximately 86% reduction.
-- Capacity increased tenfold without adding operations headcount.
-- Annual operating savings reached $2.2M.
-- Faster launches produced an estimated $5M in annualized revenue uplift, with reported ROAS of 113%.
-
-## Decisions and trade-offs
-
-- Commoditize protocol infrastructure and invest in identity, workflow, and user value.
-- Automate only evidence-backed state transitions.
-- Deliver the same governed controls through a lower-friction path for smaller partners.
-
-## Leadership signal
-
-Aligned Marketing, Legal, Finance, Operations, Engineering, and partner teams around one lifecycle, exception model, and source of audit evidence.
-
-## Skills and keywords
-
-marketing automation · partner operations · contract to cash · identity verification · workflow orchestration · SAP · attribution · smart contracts · RevOps · governance
-
-## Factual boundary
-
-The source recommends avoiding absolute fraud-elimination claims; this story focuses on verified controls, exposure reduction, disputes, and exception handling.
-
-## Source
-
-[Original Notion project page](https://app.notion.com/p/2f7f9e255f2180c995d6e6ad1d13c427)
-
+| Source | Contribution |
+|---|---|
+| [U.S. FTC - Updated Endorsement Guides (2023)](https://www.ftc.gov/news-events/news/press-releases/2023/06/federal-trade-commission-announces-updated-advertising-guides-combat-deceptive-reviews-endorsements) | Primary influencer disclosure and responsibility guidance. |
+| [NIST - Blockchain Technology Overview (2018)](https://doi.org/10.6028/NIST.IR.8202) | Primary technical grounding for smart contracts, ledgers, trust, and limitations. |
+| [Public resume](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf) | Work dates only. |

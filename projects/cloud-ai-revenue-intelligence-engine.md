@@ -1,56 +1,28 @@
-# Cloud AI Revenue Engine — Sales Intelligence & Deal Acceleration
+# Cloud AI Revenue Engine - Sales Intelligence and Deal Acceleration
 
-> **Portfolio lens:** Revenue intelligence, CRM and product signals, RFP automation, funnel intervention, and causal attribution.
+> **Document type:** Externally grounded interview case reconstruction, not a claim of an independently verified completed engagement.
+>
+> **Timeline alignment:** The [public Marketing Operations and RevOps resume](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf) is used only to place this case within the AWS role dated 2024-present.
 
-## Executive snapshot
+## Evidence-grounded premise
 
-Built a unified Revenue Operations signal layer across product, CRM, documentation, engineering, pricing, and compliance. Separate research and action engines delivered approved answers, bounded calculations, source-owner feedback, and in-product intervention at the moment customer intent was at risk.
+NIST's AI RMF requires governed context, measurement, and risk treatment for AI systems. The FTC requires marketing claims to be truthful and evidence-based. Together they support revenue intelligence that distinguishes source data from inference, shows uncertainty, and never turns model output into unsupported customer claims.
 
-## Resume-ready impact
+## Case approach
 
-- Unified seven fragmented systems into an AI-powered revenue-intelligence workflow, recapturing 1,200 hours of monthly research effort.
-- Reduced sales research from 24 minutes to under 30 seconds and security RFP turnaround from two weeks to under 48 hours.
-- Used a 90-day holdout to demonstrate 28% faster closes and 19% higher win rates, supporting $10M in accelerated ARR.
+- Define permissible sales decisions, required data, accountable owners, and prohibited automated actions.
+- Preserve source, freshness, confidence, and explanation for scores or recommendations.
+- Link generated messages and product claims to approved evidence and human review.
+- Evaluate incremental sales value with holdouts while monitoring bias, complaints, and data errors.
 
-## Interview story
+## Evidence-based success measures
 
-### Situation
+Use source coverage, calibration, false-priority rate, substantiated-claim coverage, incremental progression, override quality, and customer complaints. These are proposed measures, not historical results.
 
-Sales and technical teams searched fragmented tools while documentation lagged product changes by 72 hours. New users often abandoned within seven minutes, before reactive support could intervene.
+## External source map
 
-### Task
-
-Create one governed revenue operating layer that served trusted information at the moment of need and connected usage to measurable deal outcomes.
-
-### Actions
-
-- Unified product events, CRM, documentation, issue tracking, pricing, and compliance signals under shared definitions.
-- Separated a permission-aware research shield from a bounded action builder for proposals and technical models.
-- Added source citations, confidence thresholds, PII controls, and a flag-to-source-owner repair loop.
-- Triggered contextual help from rapid refreshes and repeated clicks, then measured controlled revenue outcomes.
-
-### Results
-
-- Research time fell below 30 seconds, and RFP cycles fell below 48 hours.
-- The source-repair loop improved internal data health 60% in one quarter.
-- AI-enabled teams closed 28% faster with 19% higher win rates.
-- The program accelerated $10M in ARR and recaptured roughly $1.4M in annual productivity.
-
-## Decisions and trade-offs
-
-- Repair source systems rather than patch individual AI answers.
-- Separate research and action engines according to risk and permissions.
-- Attribute ARR only where logged intervention or separately tagged pipeline evidence existed.
-
-## Leadership signal
-
-Aligned Sales, Product, Engineering, Compliance, Finance, and Revenue Operations around one data layer, response standard, and experimental measurement plan.
-
-## Skills and keywords
-
-Revenue Operations · revenue intelligence · CRM · RFP automation · sales enablement · pipeline · attribution · product signals · data governance · ARR
-
-## Source
-
-[Original Notion project page](https://app.notion.com/p/2f8f9e255f21800bbd98cd49ec825113)
-
+| Source | Contribution |
+|---|---|
+| [NIST - AI Risk Management Framework 1.0 (2023)](https://doi.org/10.6028/NIST.AI.100-1) | Primary AI governance, measurement, and lifecycle-risk framework. |
+| [U.S. FTC - Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) | Primary marketing-claim and substantiation standard. |
+| [Public resume](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf) | Work dates only. |
