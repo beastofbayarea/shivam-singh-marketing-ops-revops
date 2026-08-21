@@ -2,6 +2,11 @@
 
 Role-targeted resume for Marketing Ops, RevOps, CRM/CDP architecture, attribution, automation, and governed revenue data.
 
+## Profile
+
+- Email: [shiv-mkt-ops@umich.edu](mailto:shiv-mkt-ops@umich.edu)
+- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
+
 ## Resume formats
 
 - [View the PDF](./shivam-singh-marketing-ops-revops.pdf)
@@ -54,7 +59,3 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 - [Mobile affiliate: cross-app attribution](./projects/mobile-affiliate-cross-app-attribution.md) - enterprise BI, KPI governance, attribution integrity, and executive reporting
 
-## Profile
-
-- Email: [shiv-mkt-ops@umich.edu](mailto:shiv-mkt-ops@umich.edu)
-- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
