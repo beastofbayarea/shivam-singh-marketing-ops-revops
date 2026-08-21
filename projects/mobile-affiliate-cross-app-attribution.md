@@ -4,7 +4,7 @@ I led a client project to repair mobile affiliate journeys and measurement durin
 
 The source page says the story could be adapted to Rakuten or Microsoft. This repository assigns it to my July 2014–June 2016 McKinsey experience, so I treat it as a client engagement and do not claim the platform as an employer-owned product.
 
-Within that client boundary, I owned the recovery from shopper route through Finance reconciliation: the SDK build-versus-buy choice, merchant integration contract, cross-app identity, server event, three-ledger match, commission truth, and 20%-market holdout. The system ultimately connected $15 million of attributed revenue and recovered roughly $2 million previously hidden from reporting, while keeping those amounts separate from the +0.8-point incremental-conversion evidence.
+Within that client boundary, I led the recovery from shopper route through Finance reconciliation: the SDK build-versus-buy choice, merchant integration contract, cross-app identity, server event, three-ledger match, commission truth, and 20%-market holdout. The system ultimately connected $15 million of attributed revenue and recovered roughly $2 million previously hidden from reporting, while keeping those amounts separate from the +0.8-point incremental-conversion evidence.
 
 ## The incident had two casualties
 

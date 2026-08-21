@@ -17,7 +17,7 @@ Replacing him with a form would have automated ignorance. I spent three weeks wa
 
 I converted the recurring judgment into a 20-point policy engine covering residency, approved interfaces, identity, privilege, encryption, data class, retention, lineage, quality, recovery, ownership, and exception evidence.
 
-I owned the transformation from one expert's queue into a reusable enterprise integration product across 15 systems. The decision scope included policy discovery, service-lane design, build-versus-buy proof, executable release evidence, exception learning, adoption, and commercial measurement—moving 80% of routine requests from roughly four days to about 15 minutes while avoiding a quoted $200,000 annual license and supporting $850,000 of reported new business value.
+I turned one expert's queue into a reusable enterprise integration product across 15 systems. The decision scope included policy discovery, service-lane design, build-versus-buy proof, executable release evidence, exception learning, adoption, and commercial measurement—moving 80% of routine requests from roughly four days to about 15 minutes while avoiding a quoted $200,000 annual license and supporting $850,000 of reported new business value.
 
 Every request entered one of three lanes:
 

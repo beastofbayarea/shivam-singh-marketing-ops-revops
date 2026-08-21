@@ -12,7 +12,7 @@ The work belongs to my AWS role beginning in July 2024. I did not start with a c
 
 The product requirement was therefore not “answer questions faster.” It was to deliver an authorized answer or useful intervention before intent expired, while returning every defect to the system that created it.
 
-I owned the revenue control layer across product releases, price, security, compliance, support, seller behavior, and user intent. I unified six signal classes into an evidence graph, separated low-risk research from consequential action, and made bad answers repair their source—turning a 24-minute seller search and 14-day security-RFP path into sub-30-second research and sub-48-hour governed response while recapturing a reported 1,200 hours per month.
+The revenue control layer under my direction crossed product releases, price, security, compliance, support, seller behavior, and user intent. I unified six signal classes into an evidence graph, separated low-risk research from consequential action, and made bad answers repair their source—turning a 24-minute seller search and 14-day security-RFP path into sub-30-second research and sub-48-hour governed response while recapturing a reported 1,200 hours per month.
 
 ## The revenue layer was an evidence graph
 

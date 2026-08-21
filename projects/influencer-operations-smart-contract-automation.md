@@ -4,7 +4,7 @@ I led the redesign of influencer contract and payment operations during my Rakut
 
 This project ran from June to December 2023. The existing process took 14 days from agreement to payment and consumed about 40% of Marketing Operations capacity in manual checks and handoffs. Smaller creators bore the greatest burden because they lacked an enterprise legal or administrative team.
 
-I owned the redesign across identity, contract state, disclosure, deliverable evidence, exceptions, SAP payment, reconciliation, and future creator selection. The operating scope was large enough to increase partner capacity tenfold without adding Operations headcount, reduce the standard cycle below 48 hours, and support a reported $2.2 million annual savings case—while keeping the separate $5 million campaign-timing estimate labeled as modeled revenue.
+My redesign crossed identity, contract state, disclosure, deliverable evidence, exceptions, SAP payment, reconciliation, and future creator selection. The operating scope was large enough to increase partner capacity tenfold without adding Operations headcount, reduce the standard cycle below 48 hours, and support a reported $2.2 million annual savings case—while keeping the separate $5 million campaign-timing estimate labeled as modeled revenue.
 
 ## The product was the transition between states
 

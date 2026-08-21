@@ -4,7 +4,7 @@ I led an account-based revenue program for quantitative investment strategies at
 
 The program ran during my July 2016–December 2019 role. Institutional “leads” were the wrong unit: one person could sit on several boards, an adviser could influence several funds, and an investment committee could spend months learning before an opportunity existed.
 
-I owned the institutional revenue system from fiduciary relationship graph to committee-ready risk evidence, regional access, offline outcome feedback, experiments, and executive cadence. That was the operating layer behind $4.2 billion of influenced pipeline and a reported 64% sales-velocity gain, with pipeline explicitly treated as decision stock—not revenue, AUM, or value created solely by Marketing.
+My institutional revenue remit ran from fiduciary relationship graph to committee-ready risk evidence, regional access, offline outcome feedback, experiments, and executive cadence. That was the operating layer behind $4.2 billion of influenced pipeline and a reported 64% sales-velocity gain, with pipeline explicitly treated as decision stock—not revenue, AUM, or value created solely by Marketing.
 
 ## I rebuilt the record around fiduciary relationships
 
