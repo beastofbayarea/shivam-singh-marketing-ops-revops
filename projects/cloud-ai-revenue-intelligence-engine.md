@@ -6,7 +6,7 @@ A product change could take 72 hours to reach documentation. Sellers searched up
 
 A new user, meanwhile, showed configuration trouble within seven minutes. By the time support or sales responded, intent had expired.
 
-During my AWS role, I led the revenue-intelligence program across sales, solution architects, product/engineering, security/compliance, documentation, pricing, support, data, and product users. The requirement was not “deploy a chatbot.” It was to produce an authorized answer or intervention inside the decision window—and make every failure repair the source that caused it.
+During my AWS role, I directed the revenue-intelligence program across Sales, Solution Architecture, Product/Engineering, Security/Compliance, Documentation, Pricing, Support, Data, and users. The requirement was not “deploy a chatbot”; it was an authorized answer or intervention inside the decision window, with every failure repairing its source.
 
 ## One evidence graph connected six signal systems
 
@@ -65,6 +65,6 @@ The intervention had to be observable, relevant to the current task, dismissible
 
 Territory matching leaves selection and spillover risk. “Accelerated ARR” is timing stock and cannot be booked again as newly created demand.
 
-I owned the ontology, evidence graph, research/action split, source-repair loop, behavioral policy, adoption, and measurement. Source owners approved facts; security/compliance retained authority; product instrumented use; sales owned decisions; engineers implemented the platform.
+The ontology, evidence graph, research/action boundary, source-repair loop, behavioral policy, adoption, and measurement constituted my operating remit. Source owners approved facts; Security/Compliance retained authority; Product instrumented use; Sales made decisions; Engineers implemented.
 
 The strategic outcome was revenue speed as an operating property: answers arrived while customers were deciding, interventions arrived while users were struggling, and failures flowed back to the owner capable of preventing recurrence.

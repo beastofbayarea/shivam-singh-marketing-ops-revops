@@ -2,7 +2,7 @@
 
 Fifteen Oracle, SAP, EDI, SQL, and mainframe systems depended on one senior architect. Routine connection requests waited about four days, 80% of elapsed time was queueing, and reporting was judged only 70% accurate.
 
-During my Microsoft role, I led the redesign across that architect, system owners, developers, security/privacy, data stewards, onboarding, Finance, and platform engineering.
+During my Microsoft role, I turned the architect’s judgment into a shared product with system owners, developers, Security/Privacy, data stewards, Onboarding, Finance, and Platform Engineering.
 
 The bottleneck was not simply expertise. It was undocumented policy—region, source/destination permission, identity, encryption, data quality, recovery, and exceptions—combined with repeatable configuration.
 
@@ -55,6 +55,6 @@ I accepted a three-week delivery dip to build the control plane. Allowing an eme
 | Commercial value | none attributed → support faster onboarding → $850K reported | Unit corrected from “market share”; booked/contract/retained classification absent |
 | License option | ~$200K/year → avoid if build fit held → avoided | Internal TCO excluded |
 
-I owned tacit-rule discovery, policy product, buy/build proof, lane design, exception learning, adoption trade-off, measurement, and stakeholder alignment. The architect retained risk judgment; system owners built adapters; security/privacy approved controls; client teams owned cutover/acceptance.
+Tacit-rule discovery, the policy product, buy/build proof, lane design, exception learning, adoption trade-off, measurement, and stakeholder settlement were my responsibility. The architect retained risk judgment; system owners built adapters; Security/Privacy approved controls; client teams accepted cutover.
 
 The asset was not the first 15 integrations. It was a governed way to make the sixteenth without rediscovering institutional policy—and a feedback system in which every new exception improved the shared product instead of recreating gatekeeping.

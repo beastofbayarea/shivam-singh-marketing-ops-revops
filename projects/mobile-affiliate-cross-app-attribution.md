@@ -4,7 +4,7 @@ One mobile defect harmed both the customer journey and the financial record.
 
 A web affiliate click opened a merchant app but lost the intended product and campaign context. Shoppers landed at the home screen or wrong item. If they purchased anyway, merchant, platform, affiliate network, and Finance could disagree about credit.
 
-During my McKinsey role, I led the repair from route through reconciliation across shoppers, merchant product/engineering, affiliate/growth, Finance, Legal/privacy, and client leaders.
+During my McKinsey role, I took the repair from shopper route through Finance reconciliation, coordinating merchant Product/Engineering, Affiliate/Growth, Legal/Privacy, and client leaders.
 
 ## I chose recoverability over a nine-month build
 
@@ -59,6 +59,6 @@ I do not multiply 35% × $15M into a claimed $5.25M because market, period, popu
 | Did membership grow? | prior year → +18% YoY | Company membership; cannot isolate project |
 | Did CAC beat plan? | target → 10% below | Spend / acquired-member definition absent |
 
-I owned reframing, SDK decision, routing/event contract, three-ledger reconciliation, merchant enablement, geo holdout, and operating view. Merchant engineers implemented; client product owned release; Finance owned commission recognition; Legal/privacy approved identifiers; network partners reported contractually.
+Reframing, the SDK decision, routing/event contract, three-ledger reconciliation, merchant enablement, geo holdout, and operating view were my workstreams. Merchant engineers implemented; client Product released; Finance recognized commissions; Legal/Privacy approved identifiers; network partners reported contractually.
 
 The enduring RevOps lesson was to keep customer conversion, attribution, financial reconciliation, and incrementality as four separate truths. A measurement system creates value only when it improves the journey and refuses to claim purchases it did not cause.

@@ -2,7 +2,7 @@
 
 The old process took 14 days from agreement to payment and consumed about 40% of Marketing Operations capacity. Creators waited while identity, legal, campaign, approval, finance, and procurement handed work across disconnected systems; smaller creators bore the highest burden.
 
-During my June–December 2023 Rakuten role, I led the redesign across creators, campaign teams, Legal, Marketing Operations, Finance, procurement, identity/platform, and SAP payment owners.
+During my June–December 2023 Rakuten role, I re-engineered the creator operation with campaign teams, Legal, Marketing Operations, Finance, Procurement, Identity/Platform, SAP payment owners, and the creators themselves.
 
 ## The product was a state transition
 
@@ -65,6 +65,6 @@ Performance informed future creator selection after a review window. Followers d
 
 Anchor campaigns received white-glove migration; long-tail creators used low-code onboarding. Work shipped in three-week increments: identity, templates, delivery, payment, then selection feedback.
 
-The target was not zero exceptions. It was fast standard work and legible non-standard work. I owned the state model, partner decision, upstream Legal design, evidence rules, exception policy, rollout, and economics. Legal owned terms; Finance owned payment; campaign owners accepted delivery; providers supplied evidence; creators retained appeal/correction.
+The target was not zero exceptions. It was fast standard work and legible non-standard work. The state model, partner decision, upstream Legal design, evidence rules, exception policy, rollout, and economics were mine to integrate. Legal controlled terms; Finance payment; campaign owners acceptance; providers evidence; creators appeal/correction.
 
 The operating asset was a verifiable transition from promise to payment. Technology mattered only where it made identity, obligation, delivery, approval, settlement, and learning observable to the people accountable for them.

@@ -2,7 +2,7 @@
 
 A pension or sovereign buyer could not carry an opaque strategy through its own committee. Internally, lead-centric systems also blurred people, boards, advisers, funds, and mandates; in China, a >15-second global site forced prospects into email.
 
-At D. E. Shaw, I led the account-based revenue operating layer across investment/risk, relationship teams, Marketing, Sales, Data, Compliance, Client Relations, regions, and institutional allocators.
+At D. E. Shaw, I constructed the account-based revenue operating layer with Investment/Risk, relationship teams, Marketing, Sales, Data, Compliance, Client Relations, regions, and institutional allocators.
 
 ## The first-party record became a fiduciary graph
 
@@ -61,6 +61,6 @@ With a reported final nine-month cycle, a comparable 12-month holdout would impl
 
 Pipeline is stock; velocity is flow; CPQL is acquisition efficiency; ROAS depends on its numerator. They cannot be collapsed into one impact dollar.
 
-I owned the relationship graph, allocator experience, China access/data boundary, offline outcome feedback, quasi-experiments, and executive cadence. Investment, risk, compliance, regional, and relationship teams retained authority.
+The relationship graph, allocator experience, China access/data boundary, offline outcomes, quasi-experiments, and executive cadence were the system components I controlled. Investment, Risk, Compliance, regional, and relationship teams retained their authority.
 
 The strategic contribution was to make institutional marketing useful to the allocator’s governance process. Relationship data identified who was learning; transparent evidence helped the committee decide; regional infrastructure made that experience reachable; and outcome feedback measured progress in mandates rather than downloads.
