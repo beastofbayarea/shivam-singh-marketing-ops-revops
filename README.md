@@ -1,5 +1,15 @@
 # Shivam Singh — Marketing Operations & Revenue Operations
 
+## Tell me about yourself
+
+**Q: Tell me about yourself / walk me through your background.**
+
+**A:** I am a Marketing Operations and Revenue Operations leader who builds the systems connecting customer signals to governed commercial action. I began at McKinsey in marketing analytics, where I learned to separate a broken customer journey from a tracking problem and an attribution claim. That foundation led to work on cross-app affiliate routing, identity, merchant integration, finance reconciliation, and controlled incrementality measurement.
+
+At D. E. Shaw, I applied those principles to institutional ABM. Instead of optimizing lead volume, I connected investor relationships, content behavior, meetings, opportunities, risk questions, and offline outcomes into an account-level commercial record. At Microsoft, I led revenue-data integration and converted one architect's judgment across Oracle, SAP, EDI, SQL, and mainframe systems into policy-as-code and governed self-service. During my MBA role at Rakuten, I redesigned creator operations as an executable contract-to-cash lifecycle spanning identity, Legal, campaign delivery, approval, payment, exceptions, and SAP reconciliation. At AWS, my focus has included AI-enabled revenue intelligence across product, CRM, documentation, Engineering, pricing, and compliance.
+
+The progression has been from analytics to data integration to operating-system design. I am strongest where Marketing, Sales, Product, Finance, Legal, and Engineering disagree because their systems describe different versions of the customer. I establish the data contracts, lifecycle states, routing, controls, attribution boundaries, and feedback loops that make the next revenue decision faster and defensible.
+
 Revenue operations is the system that turns a market signal into a defensible company action.
 
 A useful system can answer where the signal came from, which identity and commercial state it belongs to, what policy allows the next step, who owns the exception, and how the eventual outcome returns to the model. The five projects here build that system from different directions.
