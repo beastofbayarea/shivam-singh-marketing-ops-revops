@@ -1,80 +1,66 @@
-# Helping Institutional Allocators Defend a Quantitative Strategy Decision
+# Helping institutional allocators defend a quantitative strategy decision
 
-I led an account-based revenue program for quantitative investment strategies at D. E. Shaw. I had identified that pension and sovereign-fund buyers could not carry an opaque strategy through their own committees, and our teams could not see the full relationship or reach Chinese prospects through their normal channels. I worked with investment and risk teams, relationship managers, Marketing, Sales, Data, Compliance, Client Relations, regional teams, and institutional allocators and advisers.
+A pension or sovereign buyer could not carry an opaque strategy through its own committee. Internally, lead-centric systems also blurred people, boards, advisers, funds, and mandates; in China, a >15-second global site forced prospects into email.
 
-The program ran during my July 2016–December 2019 role. Institutional “leads” were the wrong unit: one person could sit on several boards, an adviser could influence several funds, and an investment committee could spend months learning before an opportunity existed.
+At D. E. Shaw, I led the account-based revenue operating layer across investment/risk, relationship teams, Marketing, Sales, Data, Compliance, Client Relations, regions, and institutional allocators.
 
-My institutional revenue remit ran from fiduciary relationship graph to committee-ready risk evidence, regional access, offline outcome feedback, experiments, and executive cadence. That was the operating layer behind $4.2 billion of influenced pipeline and a reported 64% sales-velocity gain, with pipeline explicitly treated as decision stock—not revenue, AUM, or value created solely by Marketing.
+## The first-party record became a fiduciary graph
 
-## I rebuilt the record around fiduciary relationships
+**person ↔ role ↔ institution ↔ decision group ↔ mandate/opportunity**
 
-The first-party model separated five entities that lead-centric software blurred together:
+The graph connected web/content behavior, meetings, events, CRM, board links, fund relationships, opportunities, and closed value. A CIO returning to a volatility paper and multiple committee members studying stress behavior became account context—not three “leads.”
 
-`person ↔ role ↔ institution ↔ decision group ↔ mandate/opportunity`
-
-It resolved web and content behavior, meetings, events, CRM contacts, board links, fund relationships, opportunities, and closed value into an account graph. Relationship managers could see that a known CIO had returned to a volatility paper or that several members of one committee were studying stress behavior—without treating each browser event as a sales-ready lead.
-
-Offline outcomes returned to acquisition platforms as meetings, qualified opportunities, and closed value rather than downloads. That reduced the tendency to optimize for students, job seekers, or casual market readers who consumed sophisticated content but could not allocate capital.
+Offline outcomes returned to acquisition platforms as meetings, qualified opportunities, and closed value instead of downloads. That reduced optimization toward students, job seekers, and market readers unable to allocate capital.
 
 ## Transparency became part of the sales product
 
-The buyer did not need proprietary source code. The buyer needed a sound basis to explain what could go wrong, how the strategy had behaved, and which controls would respond.
+The buyer needed enough evidence to explain what could go wrong and how the manager would respond—not proprietary source code.
 
-I designed a guided “glass-box” experience around:
+I designed a guided experience showing signal categories/economic intuition, regime and stress behavior, drawdown/volatility/liquidity/concentration, assumptions/period/limitations/version, and a relationship-manager narrative the allocator could adapt for committee use.
 
-- signal categories and economic intuition, without exposing implementation;
-- regime and stress behavior;
-- drawdown, volatility, liquidity, and concentration views;
-- assumptions, data period, limitations, and version;
-- a relationship-manager narrative for the allocator's own committee.
+Unsupported scenario inputs were rejected. Severe outputs carried context and limits, not unattended forecasts. [FINRA Rule 2210](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210) supplied a fair/balanced communication benchmark where applicable.
 
-Impossible or unsupported scenario inputs were rejected. A severe output appeared with context and limitations, not as an unattended performance forecast.
+The journey followed four allocator questions:
 
-FINRA Rule 2210 requires communications to be fair, balanced, non-misleading, and appropriate to the audience; it also constrains performance projections. The tool was therefore an education and analysis experience, not a personalized promise that backtested behavior would recur.
+1. Is this relevant to our portfolio?
+2. Can we explain the risk?
+3. Can our committee govern it?
+4. Can we trust the manager and process?
 
-## China was an infrastructure and data-boundary problem
+Marketing owned useful evidence; relationship managers owned conversations; investment/risk owned strategy; Compliance owned communications.
 
-The global site took more than 15 seconds to load through the Chinese network path and forced prospects into an email handoff. I created a locally hosted WeChat Mini Program that loaded in under two seconds and contained approved education and low-risk utility.
+## China required its own access product
 
-The architecture was regionally isolated. Sensitive client, portfolio, and full relationship data did not enter the local product. Only a minimal, approved qualification signal returned to the global team. I avoid the absolute label “air-gapped” because any returned signal is, by definition, a controlled interface rather than a physical air gap.
+The global site took >15 seconds through the Chinese network path. I created a locally hosted WeChat Mini Program loading in <2 seconds with approved education and low-risk utility.
 
-China's Cybersecurity Law took effect in 2017 during the project. Later statutes such as the 2021 Personal Information Protection Law should not be presented as original design requirements. They reinforce the wisdom of data minimization today, but they are not contemporaneous evidence for a 2016 design decision.
+Sensitive client, portfolio, and full relationship data stayed outside. Only a minimal approved qualification signal returned. I avoid “air-gapped” because any return interface is controlled connectivity, not a physical gap.
 
-The channel result was stark: about two local leads per month became roughly 25, a 12.5× increase, while load time moved from >15 seconds to <2 seconds. The before/after result combines product availability, local behavior, content, events, and market movement; it does not isolate hosting as the sole cause.
+China’s Cybersecurity Law took effect in 2017 during the project. The 2021 PIPL is later context, not an original requirement.
 
-## An allocator's journey set the operating cadence
+Local leads moved from roughly two to 25 per month—12.5×—while load time fell by >13 seconds. Hosting, local behavior, content, events, and market conditions all contributed; infrastructure alone did not cause the full lift.
 
-I organized the program around four buyer questions rather than funnel stages:
+## Evidence accumulated, it did not become laboratory causality
 
-1. **Is this strategy relevant to our portfolio?** Utility content and account-specific context.
-2. **Can we explain the risk?** Guided stress and regime evidence.
-3. **Can our committee govern it?** Limits, reporting, liquidity, and escalation material.
-4. **Can we trust the manager and operating process?** Relationship history, diligence progress, and follow-through.
+Three quasi-experiments survived:
 
-Marketing owned useful education and account evidence; relationship teams owned conversations; investment and risk teams owned the strategy; Compliance owned communication review. The shared commercial metric was sales velocity:
+- matched financial hubs generated 9% more meeting requests;
+- a 15% account holdout took ~3 months longer to close;
+- during a six-week compliance pause, following-quarter pipeline fell 22%, then recovered.
 
-`qualified opportunities × win rate × average mandate value ÷ sales-cycle length`
+With a reported final nine-month cycle, a comparable 12-month holdout would imply a three-month / 25% reduction. Assignment was not randomized and the compliance pause could coincide with market or staffing changes. Together, these are stronger than last-touch attribution and weaker than an RCT.
 
-## Evidence accumulated in layers
+## Commercial system
 
-The source record contains three quasi-experiments:
+| Measure | Baseline → result | Meaning |
+|---|---|---|
+| Influenced pipeline | baseline absent → $4.2B | Decision stock with qualifying exposure, not revenue/AUM or solely Marketing-caused |
+| Sales velocity | index 100 → 164 | +64% composite across opportunity, win, value, cycle; component contribution absent |
+| CPQL | $850 → $420 | -$430 / -50.6% |
+| ROAS | baseline absent → 253% reported | Formula absent; do not convert to profit |
+| China access | >15 s and ~2 leads/month → <2 s and ~25/month | Availability plus market program, not hosting-only causality |
 
-- matched financial hubs exposed to the program generated 9% more meeting requests;
-- a 15% account holdout took roughly three months longer to close;
-- during a six-week compliance pause, pipeline fell 22% in the following quarter and later recovered.
+Pipeline is stock; velocity is flow; CPQL is acquisition efficiency; ROAS depends on its numerator. They cannot be collapsed into one impact dollar.
 
-The final reported cycle was nine months, so the holdout implies roughly 12 months if cohorts and definitions match: a three-month or 25% reduction. None of the tests was randomized, and the compliance pause could coincide with market or staffing changes. Together they form stronger evidence than last-touch attribution, but not laboratory causality.
+I owned the relationship graph, allocator experience, China access/data boundary, offline outcome feedback, quasi-experiments, and executive cadence. Investment, risk, compliance, regional, and relationship teams retained authority.
 
-## Commercial scorecard
-
-- **Influenced pipeline:** $4.2 billion. “Influenced” means an account had qualifying program exposure before an opportunity; it is not revenue and is not solely caused by Marketing.
-- **Sales velocity:** +64%. This composite can move through opportunity count, win rate, deal size, or cycle; component contribution is not retained.
-- **Cost per qualified lead:** $850 → $420, a $430 or 50.6% reduction.
-- **ROAS:** 253%. The source does not preserve whether this means $2.53 of attributed fee revenue per $1 spend or a 153% net return above spend. I retain the reported label but will not convert it into profit.
-- **China access:** >15s → <2s load time and ~2 → ~25 leads/month.
-
-These measures describe different levels of the system. Pipeline is stock, sales velocity is flow, CPQL is acquisition efficiency, and ROAS depends on its numerator. Combining them into one impact dollar would double count.
-
-I owned the relationship-graph requirement, buyer experience, China channel and data boundary, offline-outcome feedback, experiment design, and executive operating model. Investment, risk, compliance, regional, and relationship teams retained their respective approvals and customer duties.
-
-The external guardrails were [FINRA Rule 2210](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210), which supports balanced institutional communications and explicit limitations, and China's official [Cybersecurity Law text](https://www.gjbmj.gov.cn/n1/2017/0119/c409088-29036593.html), used only for the period-appropriate regulatory context. The later [Personal Information Protection Law](https://en.spp.gov.cn/2021-12/29/c_948419.htm) is cited as a current context check, not a 2016–2019 project input.
+The strategic contribution was to make institutional marketing useful to the allocator’s governance process. Relationship data identified who was learning; transparent evidence helped the committee decide; regional infrastructure made that experience reachable; and outcome feedback measured progress in mandates rather than downloads.
