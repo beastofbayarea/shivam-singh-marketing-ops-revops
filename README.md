@@ -36,6 +36,12 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 - [Influencer operations: smart-contract automation](./projects/influencer-operations-smart-contract-automation.md) - scalable workflow automation and operating controls
 
+### Microsoft Corporation
+
+**Marketing Operations Lead** | 2020 - 2022
+
+- [Revenue data integration: policy-as-code governance](./projects/revenue-data-integration-policy-as-code-governance.md) - governed system integration, data contracts, reporting quality, metadata standards, and self-service operations
+
 ### The D. E. Shaw Group
 
 **RevOps Analytics Lead** | 2016 - 2020
