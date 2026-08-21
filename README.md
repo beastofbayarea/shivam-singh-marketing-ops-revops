@@ -1,58 +1,64 @@
 # Shivam Singh - Marketing Operations and Revenue Operations
 
-I build revenue systems that make customer data usable, workflows dependable, and performance understandable. This portfolio shows how I approach CRM and customer-data architecture, automation, attribution, governance, and the operating rhythm between marketing, sales, finance, and product.
-
 ## Profile
 
-- I welcome conversations at [shiv-mkt-ops@umich.edu](mailto:shiv-mkt-ops@umich.edu).
-- I share my broader professional background on [LinkedIn](https://www.linkedin.com/in/beastofbayarea).
+Hi, I’m Shivam. I like making revenue systems feel less mysterious. A seller should know why a lead reached them. A marketer should trust the attribution. A finance partner should be able to reconcile the forecast. And a customer should not experience the company as five disconnected databases.
 
-## What I focus on
+That is the work I explore here: CRM and customer-data architecture, automation, governance, attribution, reporting, and the operating agreements that connect marketing, sales, product, and finance. You can reach me at [shiv-mkt-ops@umich.edu](mailto:shiv-mkt-ops@umich.edu) or find me on [LinkedIn](https://www.linkedin.com/in/beastofbayarea).
 
-- I design CRM, customer-data, and marketing-technology architecture around clear business processes.
-- I automate lifecycle workflows while preserving ownership, controls, and exception handling.
-- I improve lead scoring, routing, attribution, and forecasting through trusted shared definitions.
-- I make data quality and governance visible through practical service levels and executive reporting.
+## What good revenue operations feels like
 
-## Resume
+The data is not perfect, but people know what it means. The workflow is automated, but exceptions have owners. Teams share definitions, and the system helps them make the next decision rather than producing another dashboard to debate.
 
-- I use the [PDF resume](./shivam-singh-marketing-ops-revops.pdf) as the primary version for reading and sharing.
-- I provide an [editable, ATS-friendly DOCX](./shivam-singh-marketing-ops-revops-ats-autofill.docx) for application workflows.
+I work backward from that experience into data contracts, lifecycle stages, scoring and routing, service levels, attribution rules, controls, and executive reporting.
 
-## Selected work
+## Resume and selected roadmap
 
-- I map agentic marketing workflows, governance, orchestration, and a scalable execution path in my [Gradial demand-generation roadmap](./work-samples/gradial-agentic-marketing-demand-generation-roadmap-2026.pdf).
+You can start with my [PDF resume](./shivam-singh-marketing-ops-revops.pdf), or use the [editable, ATS-friendly DOCX](./shivam-singh-marketing-ops-revops-ats-autofill.docx) when a system requires it.
 
-## Project portfolio
+My [Gradial demand-generation roadmap](./work-samples/gradial-agentic-marketing-demand-generation-roadmap-2026.pdf) is a more visual example of how I think about agentic workflows, governance, orchestration, and a realistic path to scaled execution.
 
-I organize these projects by career experience, with the most recent first. In each case study, I explain how I would diagnose the operating problem, redesign data and workflow foundations, sequence adoption, govern change, and measure revenue impact. I ground the analysis in the independent methodology and market sources linked inside each file.
+## Systems and operating cases
+
+I’ve grouped these by career experience in reverse chronological order. Each case follows the same real-world arc—diagnosis, design, adoption, control, and measurable value—but the system and business problem are different every time. The factual foundation comes from the external sources listed in each file.
 
 ### Amazon Web Services (AWS)
 
 **Senior Marketing Operations Lead - CRM/CDP, Attribution & AI Automation** | 2024 - Present
 
-- I use [Cloud AI: revenue-intelligence engine](./projects/cloud-ai-revenue-intelligence-engine.md) to show how I would unify funnel signals, create governed metrics, improve next actions, and give revenue teams a dependable operating view.
+#### [Cloud AI: revenue-intelligence engine](./projects/cloud-ai-revenue-intelligence-engine.md)
+
+The goal is not one more lead score. I bring fragmented funnel signals into a governed operating view, explain how next actions would be produced, and define the trust and performance measures revenue teams would need before relying on it.
 
 ### Rakuten Group, Inc.
 
 **Revenue Operations & Marketing Analytics - MBA Intern** | 2023
 
-- I use [Influencer operations: smart-contract automation](./projects/influencer-operations-smart-contract-automation.md) to show how I would automate campaign agreements and settlement while preserving approvals, traceability, exception handling, and partner trust.
+#### [Influencer operations: smart-contract automation](./projects/influencer-operations-smart-contract-automation.md)
+
+Influencer programs become operationally heavy when agreements, evidence, approvals, and settlement live in separate places. I show how automation could simplify the flow while preserving traceability, exception handling, and partner trust.
 
 ### Microsoft Corporation
 
 **Marketing Operations Lead** | 2020 - 2022
 
-- I use [Revenue data integration: policy-as-code governance](./projects/revenue-data-integration-policy-as-code-governance.md) to show how I would use data contracts, metadata standards, automated policy checks, and self-service reporting to improve system trust.
+#### [Revenue data integration: policy-as-code governance](./projects/revenue-data-integration-policy-as-code-governance.md)
+
+Data governance is easier to sustain when the rules travel with the data. I work through contracts, metadata, automated policy checks, quality signals, and self-service reporting so teams can move faster without creating another reconciliation problem.
 
 ### The D. E. Shaw Group
 
 **RevOps Analytics Lead** | 2016 - 2020
 
-- I use [Institutional ABM: investor transparency](./projects/institutional-abm-investor-transparency.md) to show how I would coordinate account engagement, compliant content, relationship signals, and measurement across a complex institutional buying journey.
+#### [Institutional ABM: investor transparency](./projects/institutional-abm-investor-transparency.md)
+
+An institutional relationship is too complex for a conventional campaign funnel. I organize account signals, compliant content, stakeholder engagement, and measurement around the relationship itself—and the transparency needed to deepen it.
 
 ### McKinsey & Company
 
 **Business Analyst, Marketing Analytics** | 2014 - 2016
 
-- I use [Mobile affiliate: cross-app attribution](./projects/mobile-affiliate-cross-app-attribution.md) to show how I would establish shared metrics, reconcile fragmented event data, improve attribution integrity, and create decision-ready reporting.
+#### [Mobile affiliate: cross-app attribution](./projects/mobile-affiliate-cross-app-attribution.md)
+
+Cross-app journeys create competing versions of the truth. I establish shared metrics, reconcile event data, define attribution rules, and turn the result into reporting that executives and operating teams can use.
+
