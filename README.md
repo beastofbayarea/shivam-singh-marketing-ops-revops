@@ -2,6 +2,11 @@
 
 Role-targeted resume for Marketing Ops, RevOps, CRM/CDP architecture, attribution, automation, and governed revenue data.
 
+## Profile
+
+- Email: [shiv-mkt-ops@umich.edu](mailto:shiv-mkt-ops@umich.edu)
+- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
+
 ## Resume formats
 
 - [View the PDF](./shivam-singh-marketing-ops-revops.pdf)
@@ -22,7 +27,7 @@ Use the PDF as the authoritative resume for review and sharing. Use the DOCX as 
 
 ## Project interview stories
 
-Stories are grouped by their primary resume experience in reverse chronological order. Each project includes resume-ready impact, interview framing, decisions, metrics, and a link to the source page.
+Stories are grouped by their primary resume experience in reverse chronological order. Each file is an externally grounded interview case reconstruction: independent methodology, regulatory, and market sources support the content, while the resume is used only for work dates. The files do not claim independently verified engagement results.
 
 ### Amazon Web Services (AWS)
 
@@ -36,6 +41,12 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 - [Influencer operations: smart-contract automation](./projects/influencer-operations-smart-contract-automation.md) - scalable workflow automation and operating controls
 
+### Microsoft Corporation
+
+**Marketing Operations Lead** | 2020 - 2022
+
+- [Revenue data integration: policy-as-code governance](./projects/revenue-data-integration-policy-as-code-governance.md) - governed system integration, data contracts, reporting quality, metadata standards, and self-service operations
+
 ### The D. E. Shaw Group
 
 **RevOps Analytics Lead** | 2016 - 2020
@@ -48,7 +59,3 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 - [Mobile affiliate: cross-app attribution](./projects/mobile-affiliate-cross-app-attribution.md) - enterprise BI, KPI governance, attribution integrity, and executive reporting
 
-## Profile
-
-- Email: [shiv-mkt-ops@umich.edu](mailto:shiv-mkt-ops@umich.edu)
-- [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
