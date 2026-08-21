@@ -7,7 +7,7 @@ Role-targeted resume for Marketing Ops, RevOps, CRM/CDP architecture, attributio
 - [View the PDF](./shivam-singh-marketing-ops-revops.pdf)
 - [Download the ATS Autofill DOCX](./shivam-singh-marketing-ops-revops-ats-autofill.docx)
 
-Use the PDF for review and sharing. Use the DOCX for editable, ATS-friendly application workflows.
+Use the PDF as the authoritative resume for review and sharing. Use the DOCX as an editable, ATS-friendly companion.
 
 ## Focus areas
 
@@ -26,24 +26,29 @@ Stories are grouped by their primary resume experience in reverse chronological 
 
 ### Amazon Web Services (AWS)
 
-**Senior Growth Strategy and Product-Led Adoption Lead** | July 2024 - Present
+**Senior Marketing Operations Lead - CRM/CDP, Attribution & AI Automation** | 2024 - Present
 
 - [Cloud AI: revenue-intelligence engine](./projects/cloud-ai-revenue-intelligence-engine.md) - unified funnel intelligence and governed revenue signals
 
 ### Rakuten Group, Inc.
 
-**Growth and International Expansion - MBA Intern** | June 2023 - December 2023
+**Revenue Operations & Marketing Analytics - MBA Intern** | 2023
 
-- [Mobile affiliate: cross-app attribution](./projects/mobile-affiliate-cross-app-attribution.md) - attribution architecture and partner-performance visibility
 - [Influencer operations: smart-contract automation](./projects/influencer-operations-smart-contract-automation.md) - scalable workflow automation and operating controls
 
 ### The D. E. Shaw Group
 
-**Demand Generation Lead - FinTech** | July 2016 - December 2019
+**RevOps Analytics Lead** | 2016 - 2020
 
 - [Institutional ABM: investor transparency](./projects/institutional-abm-investor-transparency.md) - account orchestration, compliant engagement, and measurement
 
+### McKinsey & Company
+
+**Business Analyst, Marketing Analytics** | 2014 - 2016
+
+- [Mobile affiliate: cross-app attribution](./projects/mobile-affiliate-cross-app-attribution.md) - enterprise BI, KPI governance, attribution integrity, and executive reporting
+
 ## Profile
 
-- Email: [shiv-growth-mkt@umich.edu](mailto:shiv-growth-mkt@umich.edu)
+- Email: [shiv-mkt-ops@umich.edu](mailto:shiv-mkt-ops@umich.edu)
 - [LinkedIn](https://www.linkedin.com/in/beastofbayarea)
