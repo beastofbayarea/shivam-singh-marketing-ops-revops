@@ -38,6 +38,24 @@ The repaired system made roughly $2 million of previously hidden activity visibl
 
 The system influenced a reported $4.2 billion pipeline, increased the sales-velocity composite by 64%, reduced cost per qualified lead from $850 to $420, and moved China access from more than fifteen seconds and roughly two monthly leads to under two seconds and roughly 25. Pipeline remained a decision stock—not revenue, AUM, or single-function causality.
 
+## Architecture answer — a minimal, governed MarTech stack
+
+**Q: How do you structure a MarTech stack?**
+
+**A:** I work backward from customer and revenue decisions, then use the smallest practical set of systems that can execute, preserve truth, govern movement, and measure outcomes. I separate the stack into five layers and give every important object one authoritative owner.
+
+1. **Execution:** A platform such as Marketo, Braze, Iterable, HubSpot, or SFMC should own campaigns and journeys only where its state machine is useful. It should not become the master for product, contract, or financial truth.
+2. **Customer and commercial record:** CRM—often Salesforce or HubSpot—owns accounts, contacts, consented lifecycle state, opportunities, territories, routing, and seller action. Finance systems such as SAP own settlement and recognized financial events.
+3. **Data and identity:** A warehouse such as Snowflake or BigQuery, fed through governed event contracts, connects product behavior, campaign exposure, CRM, support, and finance. SQL and Python support analysis and controlled pipelines; identity rules precede segmentation or attribution.
+4. **Integration and governance:** Standard connectors or tools such as Workato or Tray handle common movement; lightweight automation is appropriate only for low-consequence tasks. Policy-as-code governs consent, region, identity, security, freshness, retries, reconciliation, and exception ownership.
+5. **Measurement and learning:** Attribution, holdouts, lifecycle cohorts, data-quality monitoring, and finance reconciliation determine what changed, what was merely observed, and which source or workflow needs repair.
+
+The projects show why those boundaries matter. In the revenue-data integration program, fifteen Oracle, SAP, EDI, SQL, and mainframe systems depended on one architect. I encoded twenty recurring decisions and created routine, conditional, and exception lanes. For 80% of requests, provision-ready time fell from roughly four days to fifteen minutes and reporting quality rose from 70% to 98%, while a $200,000 annual license alternative was avoided.
+
+In the cloud-AI revenue-intelligence engine, an evidence graph connected product, CRM, documentation, engineering, pricing, and compliance. Research could be automated; customer commitments still required an authorized owner. Seller research fell from 24 minutes to under 30 seconds and security RFP response from as much as fourteen days to under 48 hours. In mobile affiliate attribution, the internal click, merchant order, network record, and finance-eligible transaction remained separate ledgers; merchant launch time fell from 45 days to nine and a 20%-market holdout separated attribution from incrementality.
+
+My operating rule is that adding a tool must remove a real constraint without creating a second source of truth. Before scale, I pilot mappings, consent, routing, failure recovery, and reconciliation. The stack is successful when teams make faster decisions and Finance can still explain the outcome—not when the architecture diagram contains more logos.
+
 ## The revenue graph I build
 
 Across these projects, the underlying flow is:
