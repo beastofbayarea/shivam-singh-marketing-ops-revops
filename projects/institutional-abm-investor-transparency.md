@@ -1,58 +1,51 @@
-# Quant Strategies — Institutional ABM & Investor Transparency
+# Rebuilding Institutional ABM Around Relationships and Trust
 
-## What I worked on
+I did this work during my [D. E. Shaw experience from July 2016 to December 2019](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf).
 
-I completed this work during my [D. E. Shaw experience from 2016 to 2020](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf).
+Institutional demand generation was optimized around lead volume even though buying decisions happened across people, funds, boards, advisers, and long education cycles. Relationship records were fragmented, quantitative risk was difficult for buyers to explain internally, and global channels performed poorly in China.
 
-I rebuilt institutional demand generation around a first-party relationship graph, explainable investor experience, and locally compliant digital access. Account-level intent, offline revenue feedback, guided risk transparency, and controlled exposure tests replaced lead volume with sales velocity.
+I rebuilt the system around one question: did marketing help a real account understand the strategy and move toward a governed decision?
 
-## At a glance
+## I created a first-party relationship graph
 
-- I built a first-party relationship and intent layer joining web, event, content, regional-channel, CRM, board, fund, and opportunity data.
-- Activated account insights in Salesforce and fed closed-deal value back to acquisition platforms, reducing cost per qualified lead 51%.
-- I influenced $4.2B in pipeline, delivered 253% ROAS, increased sales velocity 64%, and shortened the deal cycle by roughly three months.
+I resolved web activity, events, content, regional channels, CRM, fund relationships, board links, meetings, opportunities, and closed value into a golden account record. The model distinguished a person from the institutions and decision groups to which that person belonged.
 
-## The situation
+Acquisition platforms received feedback based on meetings, qualified opportunities, and closed value—not content downloads. That taught the system to find behaviors associated with commercial progress instead of simply finding more form fills.
 
-Institutional buyers could not explain opaque quantitative risk to boards, relationship records were fragmented, local channels in China performed poorly, and last-touch measurement undervalued long-cycle education.
+COSO's internal-control framework influenced the data model: definitions, ownership, reliable information, communication, and monitoring had to remain visible across Marketing, Sales, Data, Compliance, Client Relations, and regional teams.
 
-## What I needed to accomplish
+## Transparency became an account experience
 
-I needed to create a governed ABM and revenue-data system that improved fiduciary confidence, local access, relationship timing, and causal measurement.
+I built a guided “glass-box” experience that showed regime behavior, stress response, risk posture, and scenario implications without revealing proprietary code. FINRA Rule 2210 provided the communication standard: the material had to remain fair, balanced, appropriate for the institutional audience, and clear about limitations.
 
-## What I did
+The experience was designed for a buyer who needed to explain the strategy to a board or investment committee. It did not promise to make a complex quantitative system simple; it made the decision-relevant evidence navigable.
 
-- I resolved people, funds, boards, opportunities, and engagement into a golden account relationship record.
-- I trained acquisition on meetings, opportunities, and closed value rather than content downloads.
-- I built a guided 'glass-box' experience showing stress behavior without exposing proprietary code.
-- I created a local, air-gapped mini-program carrying educational content and qualified signals while keeping sensitive data outside the market.
+## China required a local operating path
 
-## The results
+I created an air-gapped local mini-program for educational content and qualified engagement signals. Sensitive relationship data remained outside the market. Approved, minimal signals could inform account follow-up without exporting the full record.
 
-- I influenced pipeline reached $4.2B, and ROAS reached 253%.
-- Sales velocity increased 64%.
-- Cost per qualified lead fell from $850 to $420.
-- Local lead volume increased approximately twelvefold, and holdout accounts took about three months longer to close.
+This increased local lead volume approximately twelvefold while preserving the data boundary. It also reinforced that channel localization includes infrastructure and governance, not only language.
 
-## Decisions and trade-offs
+## I measured time and value, not just touches
 
-- I measured sales velocity, not raw leads.
-- I exposed enough risk logic for fiduciary trust without revealing source code.
-- I combined controlled exposure tests with CRM outcome evidence for long sales cycles.
+Controlled exposure tests and CRM outcomes helped address the long sales cycle. Holdout accounts took about three months longer to close. Across the program:
 
-## How I led
+- influenced pipeline reached $4.2 billion;
+- return on ad spend reached 253%;
+- sales velocity increased 64%; and
+- cost per qualified lead fell from $850 to $420, a 51% improvement.
 
-I unified Marketing, Sales, Data, Compliance, Client Relations, and regional teams around one relationship record and one commercial outcome.
+I use “influenced” deliberately. These are multi-person, multi-touch decisions; marketing was part of the path, not the sole cause of a $4.2 billion pipeline.
 
-## Why I chose this approach
+## My account-based operating rule
 
-I used [FINRA Rule 2210](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210) to ground institutional-communications and content standard. I used [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) to ground reliable-information and monitoring framework.
+Institutional ABM should reduce the customer's effort to reach a defensible decision. I connect relationship context, governed education, local access, and commercial outcomes in one record, then optimize for sales velocity and decision quality rather than raw lead count.
 
-## Sources and external context
+## External foundations
 
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
+These sources supplied the primary communications and reliable-information methodology. My resume establishes employment chronology only.
 
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [FINRA Rule 2210](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210) | I used it to ground institutional-communications and content standard. | — |
-| [COSO - Internal Control Integrated Framework (2013)](https://www.coso.org/guidance-on-ic/pages/default.aspx) | I used it to ground reliable-information and monitoring framework. | — |
+| Source | How I applied it |
+|---|---|
+| [FINRA — Rule 2210: Communications with the Public](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210) | I used its fair, balanced, audience-appropriate requirements for the institutional education experience. |
+| [COSO — Internal Control—Integrated Framework](https://www.coso.org/guidance-on-ic/pages/default.aspx) | I used its ownership, reliable-information, communication, and monitoring principles for the account data layer. |

@@ -1,58 +1,56 @@
-# Mobile Affiliate Attribution — Cross-App Revenue Recovery
+# Repairing Mobile Affiliate Attribution Across App Boundaries
 
-## What I worked on
+I completed this work during my [McKinsey experience from July 2014 to June 2016](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf).
 
-I completed this work during my [McKinsey experience from 2014 to 2016](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf).
+Affiliate attribution broke when a customer moved from mobile web into a merchant's app. The customer often landed on the wrong screen, legitimate transactions disappeared from reporting, Finance questioned whether the channel created incremental value, and merchants faced a 45-day integration process.
 
-I reframed a mobile affiliate measurement gap as a product-routing, data-integrity, and commercial-governance problem. Deep linking, server-to-server events, standardized parameters, parallel reconciliation, merchant enablement, and a geo holdout repaired both customer journeys and revenue reporting.
+I treated the problem as three connected failures: product routing, event integrity, and commercial governance.
 
-## At a glance
+## Time to value favored a modular partner
 
-- I introduced modular deep linking and server-to-server tracking that reduced routing failures 90% and improved attribution accuracy 25%.
-- I recovered roughly $2M in hidden revenue within $15M of attributed revenue and established shared reporting across Engineering, Finance, Sales, and partners.
-- I reduced merchant onboarding from 45 days to nine through a one-page integration pack and standardized controls.
+An internal build would take an estimated nine months. I selected a replaceable external SDK that could restore deep linking inside one quarter, with clear interface boundaries so the company could change the component later.
 
-## The situation
+The routing design carried the customer into the intended product or offer while retaining standardized campaign parameters. Server-to-server events created a more durable transaction record than relying only on the client transition.
 
-Attribution broke when customers moved from mobile web into merchant apps. Revenue disappeared from reports, Finance questioned incrementality, users reached the wrong screen, and merchants faced a 45-day integration.
+I used FTC guidance as the marketing baseline: the offer, destination, and attribution could not create a misleading customer experience. Repairing measurement did not justify obscure routing or unsupported claims.
 
-## What I needed to accomplish
+## Three records had to reconcile
 
-I needed to repair the journey and event record, prove net-new value, and create one operating view for internal and partner stakeholders.
+I standardized campaign parameters and compared internal events, merchant transactions, and affiliate-network logs. The old and new paths ran in parallel, with rollback if discrepancy exceeded 5%.
 
-## What I did
+That threshold made the migration governable. A disagreement did not become a debate between teams; it produced a known investigation and release decision. One shared dashboard showed route success, attributed transaction, merchant confirmation, network record, discrepancy, and owner.
 
-- I selected a replaceable external SDK to recover value within one quarter rather than wait nine months for an internal build.
-- I added server-to-server events, standardized UTMs, and a five-percent reconciliation threshold across internal, merchant, and network logs.
-- I ran a four-week geo holdout across 20% of markets.
-- I simplified onboarding and repositioned the program from cashback participation to measurable merchant growth.
+## Attribution was not the same as incrementality
 
-## The results
+A repaired tracking path could recover transactions that marketing touched, but it could not prove that marketing caused them. I ran a four-week geographic holdout covering 20% of markets.
 
-- I attributed revenue reached $15M, with roughly $2M recovered from hidden transactions.
-- Deep-link failures declined 90%, and data accuracy improved 25%.
+The World Bank's impact-evaluation methodology shaped that counterfactual design. I compared conversion and revenue behavior in exposed and holdout geographies while keeping the distinction between observed attribution and estimated incremental value explicit.
+
+The holdout showed a 0.8-percentage-point conversion lift and indicated that approximately 35% of attributed revenue was incremental.
+
+## Merchant onboarding became part of the product
+
+I replaced a long, bespoke integration process with a one-page implementation pack: required parameters, deep-link behavior, server event, test transaction, reconciliation rule, and escalation route. I also repositioned the proposition from “participate in cashback” to “measure and grow mobile merchant revenue.”
+
+Onboarding fell from 45 days to nine.
+
+## The combined result
+
+- Deep-link failures declined 90%.
+- Attribution accuracy improved 25%.
+- Attributed revenue reached $15 million, including roughly $2 million recovered from previously hidden transactions.
 - Merchant onboarding fell from 45 days to nine.
-- The holdout showed a 0.8-point conversion lift and indicated that roughly 35% of attributed revenue was incremental.
+- The holdout estimated a 0.8-point conversion lift and 35% incremental share of attributed revenue.
 
-## Decisions and trade-offs
+## The operating lesson
 
-- I used a modular vendor solution when time-to-value outweighed a nine-month internal build.
-- I kept old and new tracking in parallel with rollback above a five-percent discrepancy.
-- I distinguished attributed from incremental revenue.
+Marketing measurement is part of the customer journey. If the link fails, both the experience and the evidence fail. I repair the route, reconcile the records, and then run a separate causal test before using attributed revenue as proof of growth.
 
-## How I led
+## External foundations
 
-I created one dashboard and escalation model across Engineering, Finance, Sales, merchants, and affiliate partners, resolving disputes through shared evidence rather than functional reports.
+These sources supplied the primary marketing and causal-measurement methodology. My resume is linked only for employment chronology.
 
-## Why I chose this approach
-
-I used [U.S. FTC - Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) to ground truthful and non-deceptive marketing standard. I used [World Bank - Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) to ground causal-attribution and counterfactual methodology.
-
-## Sources and external context
-
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
-
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [U.S. FTC - Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) | I used it to ground truthful and non-deceptive marketing standard. | — |
-| [World Bank - Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | I used it to ground causal-attribution and counterfactual methodology. | — |
+| Source | How I applied it |
+|---|---|
+| [U.S. Federal Trade Commission — Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) | I used its truthful and non-deceptive standard for the offer and destination experience. |
+| [World Bank — Impact Evaluation in Practice](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice) | I used its counterfactual principles to separate attributed from incremental revenue. |

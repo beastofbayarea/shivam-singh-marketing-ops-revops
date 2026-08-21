@@ -1,62 +1,52 @@
-# Influencer Operations — Smart-Contract Workflow Automation
+# Redesigning Influencer Operations from Contract to Cash
 
-## What I worked on
+I led this operating-model work during my [Rakuten experience from June to December 2023](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf).
 
-I completed this work during my [Rakuten experience from 2023](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf).
+Influencer and partner campaigns moved through manual identity checks, legal edits, performance validation, SAP entry, and payment. The process took 14 days, consumed about 40% of marketing operations capacity, and created a disadvantage for smaller partners who could not navigate enterprise administration. Reported fake engagement could expose as much as 20% of activity.
 
-I redesigned influencer and partner operations around executable workflow states rather than static documents. Identity proof, governed templates, verified delivery, automated payment, exception handling, and performance feedback created a scalable contract-to-cash operating system.
+I redesigned the operation around verifiable workflow states rather than static documents.
 
-## At a glance
+## The state machine became the source of truth
 
-- I reduced partner contract-to-cash from 14 days to under 48 hours by automating identity, terms, delivery evidence, approval, and payment transitions.
-- I expanded partner-volume capacity tenfold without additional Operations headcount and removed roughly $500 of administrative cost per contract.
-- I delivered $2.2M in operating savings and an estimated $5M in annualized revenue uplift from faster campaign launches.
+I defined one lifecycle: invited, identity verified, terms accepted, work delivered, evidence approved, payment released, and performance learned. Each transition required named evidence, an accountable system or person, and a path for exceptions.
 
-## The situation
+The workflow joined identity proof, versioned terms, delivery evidence, campaign requirements, approval, payment, and performance feedback. It did not assume that a ledger entry made an external fact true; audience and delivery evidence still had to be evaluated before the system could advance.
 
-Manual identity checks, legal edits, performance validation, SAP entry, and payment consumed 40% of marketing capacity. Fake engagement exposure could reach 20%, and smaller partners struggled with enterprise administration.
+NIST's blockchain overview influenced how I treated ledgers, smart contracts, keys, trust boundaries, and technical limitations. I stopped operating custom blockchain plumbing and partnered for the commodity protocol layer, keeping internal effort on identity, workflow design, audit evidence, and the partner experience.
 
-## What I needed to accomplish
+## Legal moved upstream
 
-I needed to build a governed partner workflow that increased speed and access without allowing incorrect automated payments or unverified performance.
+Custom redlines on every routine contract created delay without improving control. I worked with Legal to convert recurring decisions into approved, versioned templates and rules. Standard work could proceed automatically; unusual terms, low-confidence identity, conflicting evidence, or disputed delivery went to human review.
 
-## What I did
+The FTC's updated Endorsement Guides supplied the disclosure and responsibility foundation. Disclosure requirements were encoded in campaign terms and delivery evidence rather than left to a final manual check.
 
-- I stopped operating custom blockchain plumbing and partnered for the protocol layer.
-- I defined an evidence-based state machine from invited to verified, contracted, delivered, approved, paid, and learned.
-- I moved Legal upstream into versioned template and rule design while preserving exception review and human override.
-- I connected verified audience and delivery data to future channel and spend allocation.
+Human override remained available, but the override created a recorded reason and an auditable state transition.
 
-## The results
+## Payment was automated only after evidence
 
-- Contract-to-cash fell below 48 hours, an approximately 86% reduction.
-- Capacity increased tenfold without adding operations headcount.
-- Annual operating savings reached $2.2M.
-- Faster launches produced an estimated $5M in annualized revenue uplift, with reported ROAS of 113%.
+The system released payment after verified identity, accepted terms, required delivery, and approval aligned. If evidence conflicted, the workflow paused instead of guessing. I also connected observed audience quality and campaign performance to future partner selection and spend allocation.
 
-## Decisions and trade-offs
+This closed the learning loop: contract and payment data did not disappear into Finance; they became part of the next campaign decision.
 
-- I commoditized protocol infrastructure and invest in identity, workflow, and user value.
-- I automated only evidence-backed state transitions.
-- I delivered the same governed controls through a lower-friction path for smaller partners.
+## The operating result
 
-## How I led
+- Contract-to-cash fell from 14 days to under 48 hours, an improvement of about 86%.
+- Partner capacity increased tenfold without additional Operations headcount.
+- Administrative cost fell by roughly $500 per contract.
+- Annual operating savings reached $2.2 million.
+- Faster launch cycles supported an estimated $5 million in annualized revenue uplift, with reported return on ad spend of 113%.
 
-I aligned Marketing, Legal, Finance, Operations, Engineering, and partner teams around one lifecycle, exception model, and source of audit evidence.
+I do not claim that automation eliminated fraud. I measure the evidence checked, exposure reduced, disputes resolved, and exceptions handled.
 
-## A note on measurement
+## What I learned
 
-I avoid absolute fraud-elimination claims. I focus on the controls I verified, the exposure I reduced, the disputes I resolved, and the exception handling I put in place.
+Smart contracts are useful when they execute a well-designed operating rule. They cannot decide whether the rule is fair, whether the external evidence is reliable, or when an exception deserves judgment. I automate the state transition only after those responsibilities are explicit.
 
-## Why I chose this approach
+## External foundations
 
-I used [U.S. FTC - Updated Endorsement Guides (2023)](https://www.ftc.gov/news-events/news/press-releases/2023/06/federal-trade-commission-announces-updated-advertising-guides-combat-deceptive-reviews-endorsements) to ground influencer disclosure and responsibility guidance. I used [NIST - Blockchain Technology Overview (2018)](https://doi.org/10.6028/NIST.IR.8202) to ground technical grounding for smart contracts, ledgers, trust, and limitations.
+These sources supplied the primary endorsement and blockchain methodology. My resume is linked only for employment chronology.
 
-## Sources and external context
-
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
-
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [U.S. FTC - Updated Endorsement Guides (2023)](https://www.ftc.gov/news-events/news/press-releases/2023/06/federal-trade-commission-announces-updated-advertising-guides-combat-deceptive-reviews-endorsements) | I used it to ground influencer disclosure and responsibility guidance. | — |
-| [NIST - Blockchain Technology Overview (2018)](https://doi.org/10.6028/NIST.IR.8202) | I used it to ground technical grounding for smart contracts, ledgers, trust, and limitations. | — |
+| Source | How I applied it |
+|---|---|
+| [U.S. Federal Trade Commission — Updated Endorsement Guides (June 2023)](https://www.ftc.gov/news-events/news/press-releases/2023/06/federal-trade-commission-announces-updated-advertising-guides-combat-deceptive-reviews-endorsements) | I used its disclosure and advertiser-responsibility guidance in contract and delivery requirements. |
+| [NIST — Blockchain Technology Overview (2018)](https://doi.org/10.6028/NIST.IR.8202) | I used its treatment of smart contracts, keys, ledgers, trust, and limitations to define what the protocol could and could not automate. |

@@ -1,57 +1,52 @@
-# Revenue Data Integration - Policy-as-Code Governance
+# Turning Revenue Data Integration into Governed Self-Service
 
-## What I worked on
+I led this work during my [Microsoft experience from January 2020 to August 2022](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf).
 
-I completed this work during my [Microsoft experience from 2020 to 2022](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf).
+Fifteen Oracle, SAP, EDI, SQL, and mainframe systems fed customer and revenue operations. Every new connection depended on one senior architect's undocumented judgment, so a routine request waited about four days. Point-to-point links also left reporting stale and only 70% accurate.
 
-I converted a four-day, single-expert integration queue into a governed self-service data platform. A 20-point policy engine encoded regional, identity, security, and exception rules while standard connector and infrastructure patterns handled routine requests and routed ambiguity to expert review.
+I did not try to automate the architect away. I made the architect's decision process explicit, testable, and reusable.
 
-## At a glance
+## I shadowed the exception logic
 
-- I led integration of 15 Oracle, SAP, EDI, SQL, and mainframe systems through standard connector contracts and policy-as-code controls.
-- I moved 80% of provisioning requests from four days to 15 minutes while increasing reporting accuracy from 70% to 98%.
-- I captured $850K in new market share and avoided roughly $200K in annual licensing cost through a controlled internal platform.
+The visible task was connecting systems; the scarce capability was knowing when a connection violated a regional, identity, security, data-quality, or operating rule.
 
-## The situation
+I worked through previous requests with the architect and translated the recurring decisions into a 20-point policy set. A request that satisfied the rules could move toward provisioning. A failure or ambiguous answer went to expert review with the relevant evidence attached.
 
-Every connection depended on one senior architect's undocumented judgment. Queue time created most of the delay, while incompatible point-to-point links left customer and revenue data stale and reporting unreliable.
+Every reviewed exception ended in one of three outcomes: correct the request, document a one-time decision, or add a reusable policy. The queue therefore became a learning system rather than an endless collection of special cases.
 
-## What I needed to accomplish
+## A three-system MVP tested build versus buy
 
-I needed to make revenue-data integration scalable and governed without bypassing institutional knowledge, weakening controls, or introducing a generic vendor platform that could not handle legacy complexity.
+I used three representative systems to validate whether a commercial platform could handle the legacy constraints. The experiment exposed incompatibilities in older interfaces and gave us a more realistic view of customization, license cost, and control.
 
-## What I did
+I chose a controlled internal platform with standard connector and identity contracts. The decision avoided roughly $200,000 in annual licensing cost, but cost alone was not the deciding factor; the internal pattern could encode the institution's actual exception logic.
 
-- I shadowed the architect and translated decision logic into a testable 20-point policy checklist.
-- I defined a pass-to-provision and fail-to-review flow, with every exception feeding a new rule or documented decision.
-- I validated build-versus-buy through a three-system MVP that exposed older-system incompatibilities.
-- I standardized connector and identity contracts across all 15 systems and created a governance dashboard for data quality, exception ownership, and reporting reliability.
+## Policy became executable release evidence
 
-## The results
+NIST's Privacy Framework influenced the data-processing and privacy-risk design. NIST SP 800-53 Revision 5 provided the broader control catalogue across access, audit, configuration, contingency, privacy, and accountability.
 
-- Eighty percent of requests became ready in about 15 minutes.
-- Reporting accuracy increased to 98%.
-- Enterprise clients onboarded ten times faster.
-- The platform captured $850K in new market share and avoided $200K in annual recurring license cost.
+The platform evaluated policy before provisioning, recorded the decision, and exposed data quality, exception ownership, and reporting reliability on a governance dashboard. It failed closed: an unrecognized condition could delay a connection, but it could not silently bypass review.
 
-## Decisions and trade-offs
+I accepted a three-week dip in delivery while the first reusable control plane was built. That temporary cost removed a much larger recurring queue.
 
-- I accept a three-week schedule dip to create a permanent reusable control plane.
-- I made the senior architect the policy author rather than the target of automation.
-- I failed closed and preserved expert review for exceptions.
+## The operating result
 
-## How I led
+- Eighty percent of requests became provision-ready in about 15 minutes instead of four days.
+- Reporting accuracy increased from 70% to 98%.
+- Enterprise client onboarding became ten times faster.
+- The platform captured $850,000 in new market share.
+- The internal approach avoided approximately $200,000 in annual recurring license cost.
 
-I turned stakeholder resistance into durable ownership by treating expert judgment as governed policy and distributing execution while preserving data quality, accountability, and exception control.
+## Why the ownership model worked
 
-## Why I chose this approach
+The senior architect became the policy author and escalation owner. Delivery teams could execute routine work, while expert attention moved to novel risk and rule evolution. That preserved institutional judgment and reduced dependence on one person's availability.
 
-I used [NIST - Privacy Framework 1.0 (2020)](https://www.nist.gov/privacy-framework/privacy-framework) to ground privacy-risk and data-processing governance. I used [NIST - SP 800-53 Revision 5 (2020)](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) to ground security, privacy, accountability, and control framework.
+My general rule is to automate the stable decision, not the unexplained expert. Once the boundary and evidence are visible, self-service and governance can improve together.
 
-## Sources and external context
+## External foundations
 
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
+These sources supplied the primary privacy and control methodology. My resume establishes employment chronology only.
 
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [NIST - Privacy Framework 1.0 (2020)](https://www.nist.gov/privacy-framework/privacy-framework) | I used it to ground privacy-risk and data-processing governance. | — |
+| Source | How I applied it |
+|---|---|
+| [NIST — Privacy Framework 1.0 (2020)](https://www.nist.gov/privacy-framework/privacy-framework) | I used its data-processing and privacy-risk lifecycle to define policy and governance requirements. |
+| [NIST — SP 800-53 Revision 5 (2020)](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) | I used its access, audit, configuration, contingency, privacy, and accountability controls to structure executable gates and evidence. |

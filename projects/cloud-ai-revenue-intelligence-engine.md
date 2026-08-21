@@ -1,58 +1,53 @@
-# Cloud AI Revenue Engine — Sales Intelligence & Deal Acceleration
+# Building a Governed Revenue Intelligence Layer for Cloud Sales
 
-## What I worked on
+I led this work during my [AWS experience beginning in July 2024](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf).
 
-I completed this work during my [AWS experience from 2024 to present](https://github.com/beastofbayarea/shivam-singh-marketing-ops-revops/blob/main/shivam-singh-marketing-ops-revops.pdf).
+Sales and technical teams were searching seven fragmented systems for product, pricing, security, and compliance answers. Documentation could lag product changes by 72 hours. A seller spent about 24 minutes researching a question, security RFPs took up to two weeks, and new product users often abandoned within seven minutes—before reactive support could reach them.
 
-I built a unified Revenue Operations signal layer across product, CRM, documentation, engineering, pricing, and compliance. Separate research and action engines delivered approved answers, bounded calculations, source-owner feedback, and in-product intervention at the moment customer intent was at risk.
+I built one revenue signal layer, but I deliberately did not make it one unconstrained AI assistant.
 
-## At a glance
+## Research and action had different risk
 
-- I unified seven fragmented systems into an AI-powered revenue-intelligence workflow, recapturing 1,200 hours of monthly research effort.
-- I reduced sales research from 24 minutes to under 30 seconds and security RFP turnaround from two weeks to under 48 hours.
-- I used a 90-day holdout to demonstrate 28% faster closes and 19% higher win rates, supporting $10M in accelerated ARR.
+I separated the experience into two engines. The research shield retrieved permission-aware information with citations and confidence signals. The action builder assembled proposals and technical models only inside bounded templates, approved calculations, and role permissions.
 
-## The situation
+That distinction reduced the chance that a useful answer could silently become an unauthorized commitment. NIST's AI Risk Management Framework shaped the lifecycle: map the user and business context, measure quality and risk, assign governance, and manage release behavior. FTC advertising guidance supplied the claim standard for customer-facing language: evidence had to support what the system proposed.
 
-Sales and technical teams searched fragmented tools while documentation lagged product changes by 72 hours. New users often abandoned within seven minutes, before reactive support could intervene.
+## I treated source health as part of the product
 
-## What I needed to accomplish
+The platform joined product events, CRM records, documentation, issue tracking, engineering releases, pricing, and compliance evidence under shared definitions. Every answer linked back to its source and owner.
 
-I needed to create one governed revenue operating layer that served trusted information at the moment of need and connected usage to measurable deal outcomes.
+When a user flagged a weak answer, the issue went to the source owner rather than becoming an isolated prompt patch. The repair loop tracked stale information, conflicting definitions, missing approval, and unsupported claims. That improved internal data health 60% in one quarter and made the next answer better for everyone.
 
-## What I did
+PII controls, permission checks, confidence thresholds, trace evidence, and escalation paths were release requirements—not additions after adoption.
 
-- I unified product events, CRM, documentation, issue tracking, pricing, and compliance signals under shared definitions.
-- I separated a permission-aware research shield from a bounded action builder for proposals and technical models.
-- I added source citations, confidence thresholds, PII controls, and a flag-to-source-owner repair loop.
-- I triggered contextual help from rapid refreshes and repeated clicks, then measured controlled revenue outcomes.
+## Product behavior became a revenue signal
 
-## The results
+For new users, rapid refreshes and repeated clicks indicated that the first journey was failing. I used those signals to trigger contextual help before abandonment, while keeping the intervention connected to observed behavior rather than a broad interruptive message.
 
-- Research time fell below 30 seconds, and RFP cycles fell below 48 hours.
-- The source-repair loop improved internal data health 60% in one quarter.
-- AI-enabled teams closed 28% faster with 19% higher win rates.
-- The program accelerated $10M in ARR and recaptured roughly $1.4M in annual productivity.
+For deals, I tracked when a governed answer, proposal, RFP response, or technical model influenced the next commercial step. I attributed revenue only where logged intervention or separately tagged pipeline evidence existed.
 
-## Decisions and trade-offs
+## A holdout tested the commercial claim
 
-- I repaired source systems rather than patch individual AI answers.
-- I separated research and action engines according to risk and permissions.
-- I attributed ARR only where logged intervention or separately tagged pipeline evidence existed.
+I kept a 90-day comparison group so broader sales changes would not be mistaken for product impact. The study compared research time, RFP turnaround, deal cycle, win rate, intervention, and attributable pipeline across enabled and holdout teams.
 
-## How I led
+The results were:
 
-I aligned Sales, Product, Engineering, Compliance, Finance, and Revenue Operations around one data layer, response standard, and experimental measurement plan.
+- research time fell from 24 minutes to under 30 seconds;
+- security RFP turnaround fell from two weeks to under 48 hours;
+- approximately 1,200 hours of monthly research work were recaptured;
+- enabled teams closed 28% faster and won 19% more often;
+- the program supported $10 million in accelerated annual recurring revenue; and
+- annualized productivity value reached roughly $1.4 million.
 
-## Why I chose this approach
+## My RevOps principle
 
-I used [NIST - AI Risk Management Framework 1.0 (2023)](https://doi.org/10.6028/NIST.AI.100-1) to ground aI governance, measurement, and lifecycle-risk framework. I used [U.S. FTC - Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) to ground marketing-claim and substantiation standard.
+Revenue intelligence works when it improves the operating system behind the answer. I connect customer and seller intent to governed sources, make permissions visible, and measure the downstream decision. A fast response is helpful; a fast, supportable response that also repairs its source system compounds in value.
 
-## Sources and external context
+## External foundations
 
-I used independent methodology and market evidence to shape the work. The resume link above is included only to establish the employment timeline.
+These sources supplied the primary AI-governance and marketing-claim methodology. My resume establishes employment chronology only.
 
-| Source | How it informed my work | Timing |
-|---|---|---|
-| [NIST - AI Risk Management Framework 1.0 (2023)](https://doi.org/10.6028/NIST.AI.100-1) | I used it to ground aI governance, measurement, and lifecycle-risk framework. | — |
-| [U.S. FTC - Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) | I used it to ground marketing-claim and substantiation standard. | — |
+| Source | How I applied it |
+|---|---|
+| [NIST — AI Risk Management Framework 1.0 (2023)](https://doi.org/10.6028/NIST.AI.100-1) | I used its govern-map-measure-manage cycle for data, evaluation, ownership, and production release. |
+| [U.S. Federal Trade Commission — Advertising and Marketing Basics](https://www.ftc.gov/business-guidance/advertising-marketing) | I used its truthful-advertising and substantiation standard for generated customer-facing claims. |
