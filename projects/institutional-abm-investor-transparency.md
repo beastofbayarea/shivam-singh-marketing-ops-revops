@@ -4,6 +4,8 @@ I led an account-based revenue program for quantitative investment strategies at
 
 The program ran during my July 2016–December 2019 role. Institutional “leads” were the wrong unit: one person could sit on several boards, an adviser could influence several funds, and an investment committee could spend months learning before an opportunity existed.
 
+I owned the institutional revenue system from fiduciary relationship graph to committee-ready risk evidence, regional access, offline outcome feedback, experiments, and executive cadence. That was the operating layer behind $4.2 billion of influenced pipeline and a reported 64% sales-velocity gain, with pipeline explicitly treated as decision stock—not revenue, AUM, or value created solely by Marketing.
+
 ## I rebuilt the record around fiduciary relationships
 
 The first-party model separated five entities that lead-centric software blurred together:
@@ -76,4 +78,3 @@ These measures describe different levels of the system. Pipeline is stock, sales
 I owned the relationship-graph requirement, buyer experience, China channel and data boundary, offline-outcome feedback, experiment design, and executive operating model. Investment, risk, compliance, regional, and relationship teams retained their respective approvals and customer duties.
 
 The external guardrails were [FINRA Rule 2210](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2210), which supports balanced institutional communications and explicit limitations, and China's official [Cybersecurity Law text](https://www.gjbmj.gov.cn/n1/2017/0119/c409088-29036593.html), used only for the period-appropriate regulatory context. The later [Personal Information Protection Law](https://en.spp.gov.cn/2021-12/29/c_948419.htm) is cited as a current context check, not a 2016–2019 project input.
-

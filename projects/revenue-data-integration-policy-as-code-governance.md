@@ -17,6 +17,8 @@ Replacing him with a form would have automated ignorance. I spent three weeks wa
 
 I converted the recurring judgment into a 20-point policy engine covering residency, approved interfaces, identity, privilege, encryption, data class, retention, lineage, quality, recovery, ownership, and exception evidence.
 
+I owned the transformation from one expert's queue into a reusable enterprise integration product across 15 systems. The decision scope included policy discovery, service-lane design, build-versus-buy proof, executable release evidence, exception learning, adoption, and commercial measurement—moving 80% of routine requests from roughly four days to about 15 minutes while avoiding a quoted $200,000 annual license and supporting $850,000 of reported new business value.
+
 Every request entered one of three lanes:
 
 **Pass:** all required facts were present and policy allowed the source–destination pair. Standard infrastructure and connector templates could provision the environment.
@@ -75,4 +77,3 @@ The project did not merely connect 15 systems. It created a governed way to make
 I owned discovery of the tacit rules, the policy product, build-versus-buy experiment, operating lanes, adoption trade-off, measurement, and stakeholder alignment. The architect retained risk judgment and policy authorship; system owners built adapters; Security and Privacy approved controls; client teams owned cutover and business acceptance.
 
 For current architectural grounding, see [Microsoft's self-service platform guidance](https://learn.microsoft.com/en-us/platform-engineering/about/self-service), [Azure Policy overview](https://learn.microsoft.com/en-us/azure/governance/policy/overview), [NIST Privacy Framework](https://www.nist.gov/privacy-framework/privacy-framework), and [NIST SP 800-53 Revision 5](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final).
-

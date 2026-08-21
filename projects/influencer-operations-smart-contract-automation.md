@@ -4,6 +4,8 @@ I led the redesign of influencer contract and payment operations during my Rakut
 
 This project ran from June to December 2023. The existing process took 14 days from agreement to payment and consumed about 40% of Marketing Operations capacity in manual checks and handoffs. Smaller creators bore the greatest burden because they lacked an enterprise legal or administrative team.
 
+I owned the redesign across identity, contract state, disclosure, deliverable evidence, exceptions, SAP payment, reconciliation, and future creator selection. The operating scope was large enough to increase partner capacity tenfold without adding Operations headcount, reduce the standard cycle below 48 hours, and support a reported $2.2 million annual savings case—while keeping the separate $5 million campaign-timing estimate labeled as modeled revenue.
+
 ## The product was the transition between states
 
 A PDF recorded terms but could not safely advance the next step. I modeled the operation as a state machine:
@@ -68,4 +70,3 @@ I owned the process model, build-versus-partner decision, upstream Legal design,
 ### Research anchors
 
 [NIST IR 8202, *Blockchain Technology Overview*](https://doi.org/10.6028/NIST.IR.8202) is the basis for the ledger, smart-contract, key, and off-chain trust boundaries. [The FTC's 2023 Endorsement Guides announcement](https://www.ftc.gov/news-events/news/press-releases/2023/06/federal-trade-commission-announces-updated-advertising-guides-combat-deceptive-reviews-endorsements) establishes the period-appropriate disclosure and responsibility context. The [FTC influencer guidance hub](https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews) supports the ongoing monitoring responsibility rather than a one-time contract clause.
-

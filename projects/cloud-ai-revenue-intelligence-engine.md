@@ -12,6 +12,8 @@ The work belongs to my AWS role beginning in July 2024. I did not start with a c
 
 The product requirement was therefore not “answer questions faster.” It was to deliver an authorized answer or useful intervention before intent expired, while returning every defect to the system that created it.
 
+I owned the revenue control layer across product releases, price, security, compliance, support, seller behavior, and user intent. I unified six signal classes into an evidence graph, separated low-risk research from consequential action, and made bad answers repair their source—turning a 24-minute seller search and 14-day security-RFP path into sub-30-second research and sub-48-hour governed response while recapturing a reported 1,200 hours per month.
+
 ## The revenue layer was an evidence graph
 
 I joined six classes of signal under shared account, product, version, source-owner, permission, and effective-date definitions:
@@ -96,4 +98,3 @@ The project mattered because it made revenue speed a property of the operating s
 - [Amazon Bedrock — Document-level access controls](https://docs.aws.amazon.com/bedrock/latest/userguide/kb-managed-ds-custom-acl.html) explicitly distinguishes ACL-aware filtering from authentication and authorization.
 - [AWS Security Blog — Authorizing access in RAG](https://aws.amazon.com/blogs/security/authorizing-access-to-data-with-rag-implementations/) explains why vector retrieval can bypass original-source permission checks if authorization is not rebuilt.
 - [NIST AI Risk Management Framework 1.0](https://doi.org/10.6028/NIST.AI.100-1) informed governance, evaluation, release, and monitoring.
-

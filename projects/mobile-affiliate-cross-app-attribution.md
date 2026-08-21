@@ -4,6 +4,8 @@ I led a client project to repair mobile affiliate journeys and measurement durin
 
 The source page says the story could be adapted to Rakuten or Microsoft. This repository assigns it to my July 2014–June 2016 McKinsey experience, so I treat it as a client engagement and do not claim the platform as an employer-owned product.
 
+Within that client boundary, I owned the recovery from shopper route through Finance reconciliation: the SDK build-versus-buy choice, merchant integration contract, cross-app identity, server event, three-ledger match, commission truth, and 20%-market holdout. The system ultimately connected $15 million of attributed revenue and recovered roughly $2 million previously hidden from reporting, while keeping those amounts separate from the +0.8-point incremental-conversion evidence.
+
 ## The incident had two casualties
 
 A mobile-web click opened a merchant app but lost the intended product path and affiliate context. The shopper landed on a home screen or wrong item. If a purchase still happened, the merchant, internal platform, and affiliate network could disagree about credit.
@@ -68,4 +70,3 @@ The geo test was the best causal evidence, but a four-week window can miss delay
 I owned reframing the defect, SDK build-versus-buy decision, event and reconciliation contract, holdout, merchant enablement, and cross-functional operating view. Merchant engineers implemented their endpoint and app route; the client product team owned release; Finance owned commission recognition; Legal and privacy teams approved identifiers and consent; the network retained contractual reporting duties.
 
 The period-specific technical references are Apple's archived [Universal Links guide](https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html) and the current [Android App Links architecture](https://developer.android.com/training/app-links/about), whose verified association pattern began with Android 6. The counterfactual method is grounded in the World Bank's [*Impact Evaluation in Practice*](https://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice). Current Apple attribution and privacy systems are materially different, so I do not project the 2015 design unchanged onto today's platform.
-
